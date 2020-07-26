@@ -1,6 +1,4 @@
-16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
-3:54 PM
- 
+# 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
 
 Fecha: 27 junio de 2020  Hora: 5:54 PM  
  
@@ -160,10 +158,9 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 
 
-***********************
- 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
-5:45 PM
- 
+---
+
+# 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
 
 Fecha: 30 junio de 2020  Hora: 7:45 PM  
  
@@ -217,10 +214,9 @@ Para comenzar indícanos tu número y tipo de documento
 5:46 PM
 
 
-********************
+---
 
-3 Turns 3 Minutes 06/30/2020 @ 10:06 PM 2 Intents
-10:06 PM
+# 3 Turns 3 Minutes 06/30/2020 @ 10:06 PM 2 Intents
  
 
 Fecha: 30 junio de 2020  Hora: 10:06 PM  
@@ -244,10 +240,10 @@ Por favor selecciona una de las siguientes opciones:
 
 10:10 PM
 
-******************
+---
 
-8 Turns 1 Minutes 07/01/2020 @ 3:52 PM 2 Intents
-3:52 PM
+# 8 Turns 1 Minutes 07/01/2020 @ 3:52 PM 2 Intents
+
  
 Fecha: 01 julio de 2020  Hora: 3:52 PM  
  
@@ -282,10 +278,9 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
 ## El usuario responde: 
 
-*****************
+---
+# 9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
 
-9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
-7:16 PM
  
  
 Fecha: 02 julio de 2020  Hora: 7:16 PM  
@@ -368,11 +363,9 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 7:17 PM
 
-**************
 
-
-24 Turns 6 Minutes 08/07/2020 @ 4:27 PM 7 Intents
-16:27
+---
+# 24 Turns 6 Minutes 08/07/2020 @ 4:27 PM 7 Intents
  
 Fecha: 08 julio de 2020  Hora: 5:27 PM  
  
