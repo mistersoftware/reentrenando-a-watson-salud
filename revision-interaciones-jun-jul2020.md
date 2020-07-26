@@ -1,14 +1,14 @@
 # 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
 
-## Fecha: 27 junio de 2020  Hora: 5:54 PM  
+Fecha: 27 junio de 2020  Hora: 5:54 PM  
  
-## Buenas tardes. 
+Buenas tardes. 
  
-## Bienvenido de nuevo Luis al canal de asistencia de Clinica VIP. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
+Bienvenido de nuevo Luis al canal de asistencia de Clinica VIP. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
  
-## Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
+Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
  
-## ¿Cuál es el motivo de tú visita el día de hoy Luis?
+¿Cuál es el motivo de tú visita el día de hoy Luis?
 
 ## Usuario dice: " Quiero un turno para el odontologo "
 
@@ -57,18 +57,18 @@
 > **mi** = @pronombres:mí
 > 
 > ## y responde: 
-> **Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.**   
+> Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.   
 >
 >
-> **Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
+> Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
 >
-> **1. 15 de julio de 2018 a las 10:20 am en CM SUBA**  
+> 1. 15 de julio de 2018 a las 10:20 am en CM SUBA 
 >
-> **2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON**  
+> 2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON 
 > 
-> **3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE** 
+> 3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
 >
-> **¿Cuál es tu elección?**
+> ¿Cuál es tu elección?
 
 ## Usuario dice: " 2 "
 
