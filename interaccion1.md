@@ -1,4 +1,3 @@
-# Interacción 1
 #### 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
 
 Fecha: 27 junio de 2020  Hora: 5:54 PM  
