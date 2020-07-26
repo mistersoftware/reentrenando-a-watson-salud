@@ -29,8 +29,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 > **el** = @pronombres:el |
 > **odontologo** = @opción:odontológica 
 > 
-> ## y responde: 
-> 
+## y responde: 
+ 
  Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
  Si la cita es para ti házmelo saber para usar tus preferencias habituales. 
 
@@ -57,7 +57,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 > **para** = @modo_tiempo:indicativo presente | 
 > **mi** = @pronombres:mí
 > 
-> ## y responde: 
+
+## y responde: 
  Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.**   
  
  Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
@@ -76,7 +77,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 > ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae la entidad:  
 > 2 = @sys-number:2
-> ## y responde: 
+
+## y responde: 
 
  Has elegido la segunda opción:
 
@@ -93,7 +95,8 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 > ## Extrae la entidad:  
 > **Si** = @decisión:sí
 > 
-> ## y responde: 
+
+## y responde: 
 
 
  No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   Esta es una simulación de la consulta al servidor. Pulsa una tecla y luego enter para continuar.
@@ -115,7 +118,8 @@ Luis estas son las opciones disponibles para la cita odontológica que se agenda
 > ## Extrae la entidad:  
 > 3 = @sys-number:3
 > 
-> ## y responde: 
+
+## y responde: 
 
 
 Has elegido la tercera opción:
@@ -135,12 +139,14 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 > **bien** = @adverbio:bien | 
 > **bien** = @conversacion:bienestar
 > 
-> ## y responde: 
+
+## y responde: 
 > 
 > No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   
 
 > ## El chatbot interpreta la intención:  corregir
-> ## y responde: 
+
+## y responde: 
 
  Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:    
 
@@ -159,7 +165,8 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 > ## Extrae la entidad:  
 > 1 = @sys-number:1
 > 
-> ## y responde: 
+
+## y responde: 
 > 
 
 Has elegido la primera opción:
@@ -175,7 +182,8 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 
 > ## El chatbot interpreta la intención:  \#aceptar
 > 
-> ## y responde: 
+
+## y responde: 
 
 
 
@@ -201,7 +209,8 @@ Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creaci�
 > **No se** = @opción:indeterminado | 
 > **se** = @pronombres:se
 > 
-> ## y responde: 
+
+## y responde: 
 
 ¿Qué te trae por aquí entonces?
 
@@ -216,7 +225,8 @@ Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creaci�
 > **estoy enfermo** = @emergencia:estoy enfermo | 
 > **estoy enfermo** = @emergencia:triage5
 > 
-> ## y responde: 
+
+## y responde: 
 
 En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes opciones:      
 
@@ -232,7 +242,8 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 > ## Extrae la entidad:  
 > **2** = @sys-number:2
 > 
-> ## y responde: 
+
+## y responde: 
 
 ## Usuario dice: " 4 "
 
@@ -241,7 +252,8 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 > **4** = @opción:cuarta | 
 > **4** = @sys-number:4
 > 
-> ## y responde: 
+
+## y responde: 
 
 Para comenzar indícanos tu número y tipo de documento
 
@@ -272,7 +284,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 > **que tal** = @conversacion:cuentamemas | 
 > **tal** = @adverbio:tal
 > 
-> ## y responde: 
+
+## y responde: 
 > 
 
 Todo bien por aqui, ¿y tu como estas?
@@ -284,7 +297,8 @@ Todo bien por aqui, ¿y tu como estas?
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
 > 
-> ## y responde: 
+
+## y responde: 
 
 que alegria saber que todo esta bien para ti,
 
@@ -303,7 +317,8 @@ que alegria saber que todo esta bien para ti,
 > **duele** = @verbo:doler | 
 > **duele** = @modo_tiempo:indicativo presente
 > 
-> ## y responde: 
+
+## y responde: 
 
  
 
@@ -323,7 +338,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 > **medicina** = @opción:médica | 
 > **medicina** = @temática:ciencias naturales
 > 
-> ## y responde: 
+
+## y responde: 
 
  
  Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
@@ -336,7 +352,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 > ## Extrae la entidad:  
 > **3838** = @sys-number:3838
 > 
-> ## y responde: 
+
+## y responde: 
 
 
 He interpretado el numero 3838, ¿es correcto?
@@ -345,7 +362,8 @@ He interpretado el numero 3838, ¿es correcto?
 
 > ## El chatbot interpreta la intención:  \#conversacion
 > 
-> ## y responde: 
+
+## y responde: 
 
  No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -355,7 +373,8 @@ He interpretado el numero 3838, ¿es correcto?
 > ## Extrae las entidad:  
 > **no** = @decisión:no
 > 
-> ## y responde: 
+
+## y responde: 
 
  No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -384,7 +403,8 @@ Te recuerdo que soy Santiago y, mi labor es colaborarte en la programación, con
 > **tengo** = @verbo:tener | 
 > **tengo** = @modo_tiempo:indicativo presente
 > 
-> ## y responde: 
+
+## y responde: 
 
 Recuerda que si se trata de una emergencia debes llamar a nuestra linea 1-800
 
@@ -396,7 +416,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 ## Usuario dice: " corazon "
 
 > ## El chatbot interpreta la intención:  \#Irrelevant
-> ## y responde: 
+
+## y responde: 
 > 
 > Cuéntame, ¿que se te ofrece?      
 > 
@@ -411,7 +432,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 > **amor** = @conversacion:amor | 
 > **amor** = @temática:amor
 > 
-> ## y responde: 
+
+## y responde: 
 > 
 
 Cuéntame, ¿que se te ofrece?      
@@ -428,7 +450,8 @@ Cuéntame, ¿que se te ofrece?
 > **por** = @preposición:por | 
 > **una** = @sys-number:1
 > 
-> ## y responde: 
+
+## y responde: 
 
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
@@ -441,7 +464,8 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 > **gracias** = @conversacion:agradecimiento | 
 > **gracias** = @conversacion:cortesia
 > 
-> ## y responde: 
+
+## y responde: 
 
 Con mucho gusto
 
@@ -453,7 +477,8 @@ Con mucho gusto
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí
 > 
-> ## y responde: 
+
+## y responde: 
 
 que alegria saber que todo esta bien para ti,
 
@@ -468,7 +493,8 @@ que alegria saber que todo esta bien para ti,
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
 > 
-> ## y responde: 
+
+## y responde: 
 
 me alegra saber que estas bien,
 
@@ -486,7 +512,8 @@ me alegra saber que estas bien,
 > **como estas** = @conversacion:como estas | 
 > **estas** = @pronombres:estas
 > 
-> ## y responde: 
+
+## y responde: 
 
 Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentras?
 
@@ -497,7 +524,8 @@ Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentr
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
 > 
-> ## y responde: 
+
+## y responde: 
 
 que chevere que estes bien,
 
@@ -512,7 +540,8 @@ que chevere que estes bien,
 > **hiciste** = @verbo:hacer | 
 > **hiciste** = @persona:tú 
 > 
-> ## y responde: 
+
+## y responde: 
 
 ¿te puedo ayudar en algo?
 
@@ -520,7 +549,8 @@ que chevere que estes bien,
 
 > ## El chatbot interpreta la intención: \#Irrelevant
 > 
-> ## y responde: 
+
+## y responde: 
 > 
 
 En Clinica VIP nos gusta ayudarte,   
@@ -537,7 +567,8 @@ Por favor selecciona una de las siguientes opciones:
 
 > ## El chatbot interpreta la intención:  \#eliminar_cita
 > 
-> ## y responde: 
+
+## y responde: 
 
 Para comenzar indícanos tu número y tipo de documento
 
@@ -547,7 +578,8 @@ Para comenzar indícanos tu número y tipo de documento
 > ## Extrae la entidad:  
 > **666** = @sys-number:666
 > 
-> ## y responde: 
+
+## y responde: 
 
 He interpretado el numero 666, ¿es correcto?
 
@@ -557,7 +589,8 @@ He interpretado el numero 666, ¿es correcto?
 > ## El chatbot interpreta la intención:  \#aceptar
 > **si** = @decisión:sí
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -565,7 +598,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 > ## El chatbot interpreta la intención: \#Irrelevant
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -583,7 +617,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 > **mande** = @modo_tiempo:subjuntivo presente | 
 > **mande** = @verbo:mandar 
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -598,7 +633,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 > **digo** = @modo_tiempo:indicativo presente | 
 > **si** = @decisión:sí 
 > 
-> ## y responde: 
+
+## y responde: 
 
  No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -607,7 +643,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 > ## El chatbot interpreta la intención:  \#conversacion
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -623,7 +660,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 > **como estas** = @conversacion:como estas | 
 > **estas** = @pronombres:estas 
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -635,7 +673,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí 
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -646,7 +685,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 > ## Extrae la entidad:  
 > **chiste** = @conversacion:chiste 
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -661,7 +701,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 > **2** = @sys-number:2 | 
 > **2** = @sys-number:2 
 > 
-> ## y responde: 
+
+## y responde: 
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
