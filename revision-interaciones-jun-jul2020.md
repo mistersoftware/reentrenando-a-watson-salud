@@ -10,7 +10,7 @@ Fecha: 27 junio de 2020  Hora: 5:54 PM
  
 ¿Cuál es el motivo de tú visita el día de hoy Luis?
 
-## Usuario dice: Quiero un turno para el odontologo
+## Usuario dice: " " Quiero un turno para el odontologo "
 
 
 > ## El chatbot interpreta el _intent_:  agendar_cita
@@ -29,11 +29,11 @@ Fecha: 27 junio de 2020  Hora: 5:54 PM
 > **odontologo** = @opción:odontológica 
 > 
 > ## y responde: 
- 
-Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
-Si la cita es para ti házmelo saber para usar tus preferencias habituales.
+> 
+> Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
+> Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## El usuario responde: La cita es para mi
+## Usuario dice: " " La cita es para mi "
 
 
 > ## El chatbot interpreta el _intent_:  agendar_cita
@@ -70,7 +70,7 @@ Luis estas son las opciones disponibles para la cita odontológica que se agenda
  
 ¿Cuál es tu elección?
 
-## Usuario dice: 2
+## Usuario dice: " 2 "
 
 
 > ## El chatbot interpreta el _intent_:  decisión
@@ -84,7 +84,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 ¿Esta bien?
 
-## Usuario dice: Si
+## Usuario dice: " Si "
 
 
 > ## El chatbot interpreta el _intent_:  aceptar
@@ -106,7 +106,7 @@ Luis estas son las opciones disponibles para la cita odontológica que se agenda
  
 ¿Cuál es la opción de tu preferencia?
 
-## Usuario dice: 3
+## Usuario dice: " 3 "
 
 
 > ## El chatbot interpreta el _intent_:  decisión
@@ -122,7 +122,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 ¿Esta bien?
 
-## Usuario dice: Esta bien
+## Usuario dice: " Esta bien "
 
 
 > ## El chatbot interpreta el _intent_:  aceptar
@@ -147,7 +147,7 @@ Luis estas son las opciones disponibles para la cita odontológica que se agenda
  
 ¿Cuál es la opción de tu preferencia?
 
-## Usuario dice: 1
+## Usuario dice: " 1 "
 
 
 > ## El chatbot interpreta el _intent_:  decisión
@@ -163,7 +163,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 ¿Esta bien?
 
-## Usuario dice: Perfecto
+## Usuario dice: " Perfecto "
 
 
 > ## El chatbot interpreta el _intent_:  aceptar
@@ -186,7 +186,7 @@ Fecha: 30 junio de 2020  Hora: 7:45 PM
  
 ¿Qué puedo hacer por ti el día de hoy Luis?
 
-## Usuario dice: No se
+## Usuario dice: " No se "
 
 > ## El chatbot interpreta el _intent_: Irrelevant
 > **No** = @decisión:no | 
@@ -197,7 +197,7 @@ Fecha: 30 junio de 2020  Hora: 7:45 PM
 
 ¿Qué te trae por aquí entonces?
 
-## Usuario dice: estoy enfermo
+## Usuario dice: " estoy enfermo "
 
 
 > ## El chatbot interpreta el _intent_:  aceptar
@@ -216,7 +216,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 3. Reprogramar   
 4. Eliminar  
 
-## Usuario dice: 2
+## Usuario dice: " 2 "
 
 
 > ## El chatbot interpreta el _intent_:  decisión
@@ -224,7 +224,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 > 
 > ## y responde: 
 
-## Usuario dice: 4
+## Usuario dice: " 4 "
 
 > ## El chatbot interpreta el _intent_:  decisión
 > **4** = @opción:cuarta | 
@@ -251,7 +251,7 @@ Fecha: 01 julio de 2020  Hora: 3:52 PM
  
 ¿Como podemos ayudarte Luis?
 
-## Usuario dice: k
+## Usuario dice: " k "
  
 En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes opciones:      
 
@@ -260,20 +260,20 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 3. Reprogramar   
 4. Eliminar  
 
-## Usuario dice: 1
+## Usuario dice: " 1 "
 1
 2
 3
  
 Para comenzar indícanos tu número y tipo de documento
 
-## Usuario dice: 1
+## Usuario dice: " 1 "
  
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita.
 
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## El usuario responde: 
+## Usuario dice: " 
 
 ---
 # 9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
@@ -290,7 +290,7 @@ Fecha: 02 julio de 2020  Hora: 7:16 PM
  
 ¿Cuál es el motivo de tú visita el día de hoy Luis?
 
-## Usuario dice: que tal
+## Usuario dice: " que tal "
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -301,7 +301,7 @@ Fecha: 02 julio de 2020  Hora: 7:16 PM
 
 Todo bien por aqui, ¿y tu como estas?
 
-## Usuario dice: bien
+## Usuario dice: " bien "
 
 > ## El chatbot interpreta el _intent_:  conversacion
 > **bien** = @conversacion:bienestar | 
@@ -313,7 +313,7 @@ que alegria saber que todo esta bien para ti,
  
 ¿en que te puedo colaborar?
 
-## Usuario dice: me duele
+## Usuario dice: " me duele "
 
 
 > ## El chatbot interpreta el _intent_:  emergencia
@@ -334,7 +334,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 1. Medicina general,   
 2. Odontología Básica.
 
-## Usuario dice: medicina
+## Usuario dice: " medicina "
 
 
 > ## El chatbot interpreta el _intent_:  agendar_cita
@@ -347,7 +347,7 @@ Para comenzar por favor indícame tipo y número de documento del paciente que r
 
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## El usuario responde: 3838
+## Usuario dice: " 3838
 
 > ## El chatbot interpreta el _intent_:  Irrelevant
 > **3838** = @sys-number:3838
@@ -356,7 +356,7 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
 He interpretado el numero 3838, ¿es correcto?
 
-## El usuario responde: hey
+## Usuario dice: " hey
 
 > ## El chatbot interpreta el _intent_:  conversacion
 > 
@@ -364,7 +364,7 @@ He interpretado el numero 3838, ¿es correcto?
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: no
+## Usuario dice: " no
 
 > ## El chatbot interpreta el _intent_:  decisión
 > **no** = @decisión:no
@@ -388,7 +388,7 @@ Fecha: 08 julio de 2020  Hora: 5:27 PM
  
 ¿Como podemos ayudarte Luis?
 
-## Usuario dice: tengo un problema
+## Usuario dice: " tengo un problema "
 
 
 > ## El chatbot interpreta el _intent_:  emergencia
@@ -405,7 +405,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
       1. Medicina general,   
       2. Odontología Básica.
 
-## Usuario dice: corazon
+## Usuario dice: " corazon "
 
 > ## El chatbot interpreta el _intent_:  Irrelevant
  
@@ -414,7 +414,7 @@ Cuéntame, ¿que se te ofrece?
 1. Medicina general,   
 2. Odontología Básica.
 
-## Usuario dice: amor
+## Usuario dice: " amor "
 
 
 > ## El chatbot interpreta el _intent_:  corregir
@@ -428,7 +428,7 @@ Cuéntame, ¿que se te ofrece?
 1. Medicina general,   
 2. Odontología Básica.
 
-## Usuario dice: amor por una persona
+## Usuario dice: " amor por una persona "
 
 > ## El chatbot interpreta el _intent_:  Irrelevant
 > **amor** = @temática:amor | 
@@ -441,7 +441,7 @@ Cuéntame, ¿que se te ofrece?
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## El usuario responde: gracias
+## Usuario dice: " gracias "
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -452,7 +452,7 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
 Con mucho gusto
 
-## El usuario responde: genial
+## Usuario dice: " genial " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -465,7 +465,7 @@ que alegria saber que todo esta bien para ti,
  
 ¿en que te puedo colaborar?
 
-## El usuario responde: todo bien
+## Usuario dice: " todo bien " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -479,7 +479,7 @@ me alegra saber que estas bien,
  
 ¿en que te puedo colaborar?
 
-## El usuario responde: y como estas
+## Usuario dice: " y como estas " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -494,7 +494,7 @@ me alegra saber que estas bien,
 
 Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentras?
 
-## El usuario responde: bien
+## Usuario dice: " bien " 
 
 > ## El chatbot interpreta el _intent_:  conversacion
 > **bien** = @conversacion:bienestar | 
@@ -506,7 +506,7 @@ que chevere que estes bien,
  
 ¿como puedo ayudarte?
 
-## El usuario responde: que hiciste
+## Usuario dice: " que hiciste " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -518,7 +518,7 @@ que chevere que estes bien,
 
 ¿te puedo ayudar en algo?
 
-## El usuario responde: almorzaste
+## Usuario dice: " almorzaste " 
 
 > ## El chatbot interpreta el _intent_: Irrelevant
 > 
@@ -532,7 +532,7 @@ Por favor selecciona una de las siguientes opciones:
 3. Reprogramar   
 4. Eliminar  
 
-## El usuario responde: eliminar
+## Usuario dice: " eliminar " 
 
 
 > ## El chatbot interpreta el _intent_:  eliminar_cita
@@ -541,7 +541,7 @@ Por favor selecciona una de las siguientes opciones:
 
 Para comenzar indícanos tu número y tipo de documento
 
-## El usuario responde: 666 demonio
+## Usuario dice: " 666 demonio " 
 
 > ## El chatbot interpreta el _intent_:  Irrelevant
 > **666** = @sys-number:666
@@ -550,7 +550,7 @@ Para comenzar indícanos tu número y tipo de documento
 
 He interpretado el numero 666, ¿es correcto?
 
-## El usuario responde: si
+## Usuario dice: " si " 
 
 
 > ## El chatbot interpreta el _intent_:  aceptar
@@ -560,7 +560,7 @@ He interpretado el numero 666, ¿es correcto?
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: demonio
+## Usuario dice: " demonio " 
 
 > ## El chatbot interpreta el _intent_: Irrelevant
 > 
@@ -568,7 +568,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: ya lo mande
+## Usuario dice: " ya lo mande " 
 
 
 > ## El chatbot interpreta el _intent_:  emergencia
@@ -585,7 +585,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: te digo que si
+## Usuario dice: " te digo que si " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -599,7 +599,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: bueno
+## Usuario dice: " bueno " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -608,7 +608,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: como estas
+## Usuario dice: " como estas " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -633,7 +633,7 @@ genial
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: jajjaj que buen chiste
+## Usuario dice: " jajjaj que buen chiste " 
 
 
 > ## El chatbot interpreta el _intent_:  conversacion
@@ -643,7 +643,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: cuanto es 2 + 2
+## Usuario dice: " cuanto es 2 + 2 " 
 
 
 > ## El chatbot interpreta el _intent_:  decisión
