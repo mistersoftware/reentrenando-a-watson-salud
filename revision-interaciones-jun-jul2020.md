@@ -13,7 +13,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " Quiero un turno para el odontologo "
 
 
-> > ## Intención:  \#agendar_cita
+> ## Intención:  \#agendar_cita
 > ## Entidades:  
 > **Quiero** = @persona:yo |
 > **Quiero** = @verbo:querer |
