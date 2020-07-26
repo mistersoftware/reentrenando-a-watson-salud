@@ -35,23 +35,23 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
 
 > ## El chatbot interpreta:  agendar_cita
-> La = @pronombres:la
-> cita = @persona:tú
-> cita = @modo_tiempo:imperativo
-> cita = @persona:él
-> cita = @persona:ella
-> cita = @verbo:citar
-> cita = @modo_tiempo:indicativo presente
-> es = @persona:él
-> es = @persona:ella
-> es = @verbo:ser
-> para = @persona:tú
-> para = @preposición:para
-> para = @modo_tiempo:imperativo
-> para = @persona:él
-> para = @persona:ella
-> para = @modo_tiempo:indicativo presente
-> mi = @pronombres:mí
+> La = @pronombres:la | 
+> **cita** = @persona:tú | 
+> **cita** = @modo_tiempo:imperativo | 
+> **cita** = @persona:él | 
+> **cita** = @persona:ella | 
+> **cita** = @verbo:citar | 
+> **cita** = @modo_tiempo:indicativo presente | 
+> **es** = @persona:él | 
+> **es** = @persona:ella | 
+> **es** = @verbo:ser | 
+> **para** = @persona:tú | 
+> **para** = @preposición:para | 
+> **para** = @modo_tiempo:imperativo | 
+> **para** = @persona:él | 
+> **para** = @persona:ella | 
+> **para** = @modo_tiempo:indicativo presente | 
+> **mi** = @pronombres:mí
  
 Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.   
 
@@ -84,7 +84,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 
 
 > ## El chatbot interpreta:  aceptar
-> Si = @decisión:sí
+> **Si** = @decisión:sí
  
 
 No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   Esta es una simulación de la consulta al servidor. Pulsa una tecla y luego enter para continuar.
@@ -118,9 +118,9 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 
 
 > ## El chatbot interpreta:  aceptar
-> Esta = @pronombres:esta
-> bien = @adverbio:bien
-> bien = @conversacion:bienestar
+> **Esta** = @pronombres:esta | 
+> **bien** = @adverbio:bien | 
+> **bien** = @conversacion:bienestar
  
  
 No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   
@@ -175,9 +175,9 @@ Fecha: 30 junio de 2020  Hora: 7:45 PM
 ## Usuario dice: No se
 
 > ## El chatbot interpreta: Irrelevant
-> No = @decisión:no
-> No se = @opción:indeterminado
-> se = @pronombres:se
+> **No** = @decisión:no | 
+> **No se** = @opción:indeterminado | 
+> **se** = @pronombres:se
  
 ¿Qué te trae por aquí entonces?
 
@@ -185,14 +185,14 @@ Fecha: 30 junio de 2020  Hora: 7:45 PM
 
 
 > ## El chatbot interpreta:  aceptar
-> estoy = @persona:yo
-> estoy = @verbo:estar
-> estoy = @modo_tiempo:indicativo presente
-> estoy enfermo = @emergencia:estoy enfermo
-> estoy enfermo = @emergencia:triage5
+> **estoy** = @persona:yo | 
+> **estoy** = @verbo:estar | 
+> **estoy** = @modo_tiempo:indicativo presente | 
+> **estoy enfermo** = @emergencia:estoy enfermo | 
+> **estoy enfermo** = @emergencia:triage5
  
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
+En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes opciones:      
+
 1. Asignar   
 2. Consultar   
 3. Reprogramar   
@@ -202,13 +202,13 @@ Por favor selecciona una de las siguientes opciones:
 
 
 > ## El chatbot interpreta:  decisión
-> 2 = @sys-number:2
+> **2** = @sys-number:2
 
 ## Usuario dice: 4
 
 > ## El chatbot interpreta:  decisión
-> 4 = @opción:cuarta
-> 4 = @sys-number:4
+> **4** = @opción:cuarta | 
+> **4** = @sys-number:4
  
 Para comenzar indícanos tu número y tipo de documento
 5:46 PM
@@ -231,8 +231,8 @@ Fecha: 30 junio de 2020  Hora: 10:06 PM
 
 ## Usuario dice: PROBAR
  
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
+En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes opciones:    
+
 1. Asignar   
 2. Consultar   
 3. Reprogramar   
@@ -257,8 +257,8 @@ Fecha: 01 julio de 2020  Hora: 3:52 PM
 
 ## Usuario dice: k
  
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
+En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes opciones:      
+
 1. Asignar   
 2. Consultar   
 3. Reprogramar   
@@ -273,7 +273,8 @@ Para comenzar indícanos tu número y tipo de documento
 
 ## Usuario dice: 1
  
-Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita     
+Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita.
+
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
 ## El usuario responde: 
@@ -297,16 +298,16 @@ Fecha: 02 julio de 2020  Hora: 7:16 PM
 
 
 > ## El chatbot interpreta:  conversacion
-> que tal = @conversacion:cuentamemas
-> tal = @adverbio:tal
+> **que tal** = @conversacion:cuentamemas | 
+> **tal** = @adverbio:tal
  
 Todo bien por aqui, ¿y tu como estas?
 
 ## Usuario dice: bien
 
 > ## El chatbot interpreta:  conversacion
-> bien = @conversacion:bienestar
-> bien = @adverbio:bien
+> **bien** = @conversacion:bienestar | 
+> **bien** = @adverbio:bien
  
 que alegria saber que todo esta bien para ti,
  
@@ -316,13 +317,13 @@ que alegria saber que todo esta bien para ti,
 
 
 > ## El chatbot interpreta:  emergencia
-> me = @pronombres:me
-> duele = @persona:ella
-> duele = @persona:tú
-> duele = @modo_tiempo:imperativo
-> duele = @persona:él
-> duele = @verbo:doler
-> duele = @modo_tiempo:indicativo presente
+> **me** = @pronombres:me | 
+> **duele** = @persona:ella | 
+> **duele** = @persona:tú | 
+> **duele** = @modo_tiempo:imperativo | 
+> **duele** = @persona:él | 
+> **duele** = @verbo:doler | 
+> **duele** = @modo_tiempo:indicativo presente
  
 Recuerda que si se trata de una emergencia debes llamar a nuestra linea 1-800
  
@@ -335,8 +336,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 
 
 > ## El chatbot interpreta:  agendar_cita
-> medicina = @opción:médica
-> medicina = @temática:ciencias naturales
+> **medicina** = @opción:médica | 
+> **medicina** = @temática:ciencias naturales
  
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
 
@@ -345,7 +346,7 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 ## El usuario responde: 3838
 
 > ## El chatbot interpreta:  Irrelevant
-> 3838 = @sys-number:3838
+> **3838** = @sys-number:3838
  
 He interpretado el numero 3838, ¿es correcto?
 
@@ -358,7 +359,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## El usuario responde: no
 
 > ## El chatbot interpreta:  decisión
-> no = @decisión:no
+> **no** = @decisión:no
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 7:17 PM
@@ -381,9 +382,9 @@ Fecha: 08 julio de 2020  Hora: 5:27 PM
 
 
 > ## El chatbot interpreta:  emergencia
-> tengo = @persona:yo
-> tengo = @verbo:tener
-> tengo = @modo_tiempo:indicativo presente
+> **tengo** = @persona:yo | 
+> **tengo** = @verbo:tener | 
+> **tengo** = @modo_tiempo:indicativo presente
  
 Recuerda que si se trata de una emergencia debes llamar a nuestra linea 1-800
  
@@ -405,8 +406,8 @@ Cuéntame, ¿que se te ofrece?
 
 
 > ## El chatbot interpreta:  corregir
-> amor = @conversacion:amor
-> amor = @temática:amor
+> **amor** = @conversacion:amor | 
+> **amor** = @temática:amor
  
 Cuéntame, ¿que se te ofrece?      
 
@@ -416,10 +417,10 @@ Cuéntame, ¿que se te ofrece?
 ## Usuario dice: amor por una persona
 
 > ## El chatbot interpreta:  Irrelevant
-> amor = @temática:amor
-> amor = @conversacion:amor
-> por = @preposición:por
-> una = @sys-number:1
+> **amor** = @temática:amor | 
+> **amor** = @conversacion:amor | 
+> **por** = @preposición:por | 
+> **una** = @sys-number:1
  
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
@@ -428,8 +429,8 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
 
 > ## El chatbot interpreta:  conversacion
-> gracias = @conversacion:agradecimiento
-> gracias = @conversacion:cortesia
+> **gracias** = @conversacion:agradecimiento | 
+> **gracias** = @conversacion:cortesia
  
 Con mucho gusto
 
@@ -437,8 +438,8 @@ Con mucho gusto
 
 
 > ## El chatbot interpreta:  conversacion
-> genial = @conversacion:bienestar
-> genial = @decisión:sí
+> **genial** = @conversacion:bienestar | 
+> **genial** = @decisión:sí
  
 que alegria saber que todo esta bien para ti,
  
@@ -448,9 +449,9 @@ que alegria saber que todo esta bien para ti,
 
 
 > ## El chatbot interpreta:  conversacion
-> todo = @adverbio:todo
-> bien = @conversacion:bienestar
-> bien = @adverbio:bien
+> **todo** = @adverbio:todo | 
+> **bien** = @conversacion:bienestar | 
+> **bien** = @adverbio:bien
  
 me alegra saber que estas bien,
  
@@ -460,20 +461,20 @@ me alegra saber que estas bien,
 
 
 > ## El chatbot interpreta:  conversacion
-> como = @adverbio:como
-> como = @persona:yo
-> como = @verbo:comer
-> como = @modo_tiempo:indicativo presente
-> como estas = @conversacion:como estas
-> estas = @pronombres:estas
+> **como** = @adverbio:como | 
+> **como** = @persona:yo | 
+> **como** = @verbo:comer | 
+> **como** = @modo_tiempo:indicativo presente | 
+> **como estas** = @conversacion:como estas | 
+> **estas** = @pronombres:estas
  
 Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentras?
 
 ## El usuario responde: bien
 
 > ## El chatbot interpreta:  conversacion
-> bien = @conversacion:bienestar
-> bien = @adverbio:bien
+> **bien** = @conversacion:bienestar | 
+> **bien** = @adverbio:bien
  
 que chevere que estes bien,
  
@@ -483,9 +484,9 @@ que chevere que estes bien,
 
 
 > ## El chatbot interpreta:  conversacion
-> hiciste = @modo_tiempo:indicativo pasado
-> hiciste = @verbo:hacer
-> hiciste = @persona:tú
+> **hiciste** = @modo_tiempo:indicativo pasado | 
+> **hiciste** = @verbo:hacer | 
+> **hiciste** = @persona:tú 
  
 ¿te puedo ayudar en algo?
 
@@ -511,7 +512,7 @@ Para comenzar indícanos tu número y tipo de documento
 ## El usuario responde: 666 demonio
 
 > ## El chatbot interpreta:  Irrelevant
-> 666 = @sys-number:666
+> **666** = @sys-number:666
  
 He interpretado el numero 666, ¿es correcto?
 
@@ -519,7 +520,7 @@ He interpretado el numero 666, ¿es correcto?
 
 
 > ## El chatbot interpreta:  aceptar
-> si = @decisión:sí
+> **si** = @decisión:sí
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -533,14 +534,14 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 
 > ## El chatbot interpreta:  emergencia
-> ya = @adverbio:ya
-> lo = @pronombres:lo
-> mande = @persona:ella
-> mande = @modo_tiempo:imperativo
-> mande = @persona:él
-> mande = @persona:yo
-> mande = @modo_tiempo:subjuntivo presente
-> mande = @verbo:mandar
+> **ya** = @adverbio:ya | 
+> **lo** = @pronombres:lo | 
+> **mande** = @persona:ella | 
+> **mande** = @modo_tiempo:imperativo | 
+> **mande** = @persona:él | 
+> **mande** = @persona:yo | 
+> **mande** = @modo_tiempo:subjuntivo presente | 
+> **mande** = @verbo:mandar 
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -548,12 +549,12 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 
 > ## El chatbot interpreta:  conversacion
-> te = @pronombres:te
-> digo = @verbo:decir
-> digo = @persona:yo
-> digo = @modo_tiempo:indicativo presente
-> si = @decisión:sí
- 
+> **te** = @pronombres:te | 
+> **digo** = @verbo:decir | 
+> **digo** = @persona:yo | 
+> **digo** = @modo_tiempo:indicativo presente | 
+> **si** = @decisión:sí 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
 ## El usuario responde: bueno
@@ -567,20 +568,20 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 
 > ## El chatbot interpreta:  conversacion
-> como = @adverbio:como
-> como = @persona:yo
-> como = @verbo:comer
-> como = @modo_tiempo:indicativo presente
-> como estas = @conversacion:como estas
-> estas = @pronombres:estas
+> **como** = @adverbio:como | 
+> **como** = @persona:yo | 
+> **como** = @verbo:comer | 
+> **como** = @modo_tiempo:indicativo presente | 
+> **como estas** = @conversacion:como estas | 
+> **estas** = @pronombres:estas 
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 genial
 
 
 > ## El chatbot interpreta:  conversacion
-> genial = @conversacion:bienestar
-> genial = @decisión:sí
+> **genial** = @conversacion:bienestar | 
+> **genial** = @decisión:sí 
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -588,7 +589,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 
 > ## El chatbot interpreta:  conversacion
-chiste = @conversacion:chiste
+> **chiste** = @conversacion:chiste 
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
@@ -596,11 +597,11 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 
 > ## El chatbot interpreta:  decisión
-> es = @persona:ella
-> es = @persona:él
-> es = @verbo:ser
-> 2 = @sys-number:2
-> 2 = @sys-number:2
+> **es** = @persona:ella | 
+> **es** = @persona:él | 
+> **es** = @verbo:ser | 
+> **2** = @sys-number:2 | 
+> **2** = @sys-number:2 
  
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 16:33
