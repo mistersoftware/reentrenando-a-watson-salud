@@ -22,8 +22,15 @@ Quiero = @verbo:querer
 Quiero = @modo_tiempo:indicativo presente
 turno = @dato:turno
  
-En Clinica VIP nos gusta ayudarte,   Por favor selecciona una de las siguientes opciones:      1. Asignar   2. Consultar   3. Reprogramar   4. Eliminar  
-1
+En Clinica VIP nos gusta ayudarte,   
+Por favor selecciona una de las siguientes opciones:     
+
+1. Asignar   
+2. Consultar   
+3. Reprogramar   
+4. Eliminar  
+
+## Usuario dice: 1
 
 
 > ## El chatbot interpreta:  decisión
