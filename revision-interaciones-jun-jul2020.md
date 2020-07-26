@@ -13,7 +13,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " Quiero un turno para el odontologo "
 
 
-> ## Intención:  \#agendar_cita
+> > ## Intención:  \#agendar_cita
 > ## Entidades:  
 > **Quiero** = @persona:yo |
 > **Quiero** = @verbo:querer |
@@ -37,7 +37,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " La cita es para mi "
 
 
-## Intención:  \#agendar_cita
+> ## Intención:  \#agendar_cita
 > ## Entidades:  
 > La = @pronombres:la | 
 > **cita** = @persona:tú | 
@@ -74,8 +74,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " 2 "
 
 
-## Intención:  \#decisión
-> ## Extrae la entidad:  
+> ## Intención:  \#decisión
+> ## Entidad:  
 > 2 = @sys-number:2
 
 ## Respuesta del chatbot: 
@@ -91,8 +91,8 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " Si "
 
 
-## Intención:  \#aceptar
-> ## Extrae la entidad:  
+> ## Intención:  \#aceptar
+> ## Entidad:  
 > **Si** = @decisión:sí
 > 
 
@@ -114,8 +114,8 @@ Luis estas son las opciones disponibles para la cita odontológica que se agenda
 ## Usuario dice: " 3 "
 
 
-## Intención:  \#decisión
-> ## Extrae la entidad:  
+> ## Intención:  \#decisión
+> ## Entidad:  
 > 3 = @sys-number:3
 > 
 
@@ -133,7 +133,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " Esta bien "
 
 
-## Intención:  \#aceptar
+> ## Intención:  \#aceptar
 > ## Entidades:  
 > **Esta** = @pronombres:esta | 
 > **bien** = @adverbio:bien | 
@@ -144,7 +144,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 > 
 > No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   
 
-## Intención:  corregir
+> ## Intención:  corregir
 
 ## Respuesta del chatbot: 
 
@@ -161,8 +161,8 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " 1 "
 
 
-## Intención:  \#decisión
-> ## Extrae la entidad:  
+> ## Intención:  \#decisión
+> ## Entidad:  
 > 1 = @sys-number:1
 > 
 
@@ -180,7 +180,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " Perfecto "
 
 
-## Intención:  \#aceptar
+> ## Intención:  \#aceptar
 > 
 
 ## Respuesta del chatbot: 
@@ -203,7 +203,7 @@ Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creaci�
 
 ## Usuario dice: " No se "
 
-## Intención: \#Irrelevant
+> ## Intención: \#Irrelevant
 > ## Entidades:  
 > **No** = @decisión:no | 
 > **No se** = @opción:indeterminado | 
@@ -217,7 +217,7 @@ Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creaci�
 ## Usuario dice: " estoy enfermo "
 
 
-## Intención:  \#aceptar
+> ## Intención:  \#aceptar
 > ## Entidades:  
 > **estoy** = @persona:yo | 
 > **estoy** = @verbo:estar | 
@@ -238,8 +238,8 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " 2 "
 
 
-## Intención:  \#decisión
-> ## Extrae la entidad:  
+> ## Intención:  \#decisión
+> ## Entidad:  
 > **2** = @sys-number:2
 > 
 
@@ -247,7 +247,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " 4 "
 
-## Intención:  \#decisión
+> ## Intención:  \#decisión
 > ## Entidades:  
 > **4** = @opción:cuarta | 
 > **4** = @sys-number:4
@@ -279,7 +279,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " que tal "
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **que tal** = @conversacion:cuentamemas | 
 > **tal** = @adverbio:tal
@@ -292,7 +292,7 @@ Todo bien por aqui, ¿y tu como estas?
 
 ## Usuario dice: " bien "
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
@@ -307,7 +307,7 @@ que alegria saber que todo esta bien para ti,
 ## Usuario dice: " me duele "
 
 
-## Intención:  \#emergencia
+> ## Intención:  \#emergencia
 > ## Entidades:  
 > **me** = @pronombres:me | 
 > **duele** = @persona:ella | 
@@ -333,7 +333,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 ## Usuario dice: " medicina "
 
 
-## Intención:  \#agendar_cita
+> ## Intención:  \#agendar_cita
 > ## Entidades:  
 > **medicina** = @opción:médica | 
 > **medicina** = @temática:ciencias naturales
@@ -348,8 +348,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 
 ## Usuario dice: " 3838
 
-## Intención:  \#Irrelevant
-> ## Extrae la entidad:  
+> ## Intención:  \#Irrelevant
+> ## Entidad:  
 > **3838** = @sys-number:3838
 > 
 
@@ -360,7 +360,7 @@ He interpretado el numero 3838, ¿es correcto?
 
 ## Usuario dice: " hey
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > 
 
 ## Respuesta del chatbot: 
@@ -369,7 +369,7 @@ He interpretado el numero 3838, ¿es correcto?
 
 ## Usuario dice: " no
 
-## Intención:  \#decisión
+> ## Intención:  \#decisión
 > ## Extrae las entidad:  
 > **no** = @decisión:no
 > 
@@ -397,7 +397,7 @@ Te recuerdo que soy Santiago y, mi labor es colaborarte en la programación, con
 ## Usuario dice: " tengo un problema "
 
 
-## Intención:  \#emergencia
+> ## Intención:  \#emergencia
 > ## Entidades:  
 > **tengo** = @persona:yo | 
 > **tengo** = @verbo:tener | 
@@ -415,7 +415,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 
 ## Usuario dice: " corazon "
 
-## Intención:  \#Irrelevant
+> ## Intención:  \#Irrelevant
 
 ## Respuesta del chatbot: 
 > 
@@ -427,7 +427,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 ## Usuario dice: " amor "
 
 
-## Intención:  \#corregir
+> ## Intención:  \#corregir
 > ## Entidades:  
 > **amor** = @conversacion:amor | 
 > **amor** = @temática:amor
@@ -443,7 +443,7 @@ Cuéntame, ¿que se te ofrece?
 
 ## Usuario dice: " amor por una persona "
 
-## Intención:  \#Irrelevant
+> ## Intención:  \#Irrelevant
 > ## Entidades:  
 > **amor** = @temática:amor | 
 > **amor** = @conversacion:amor | 
@@ -459,7 +459,7 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 ## Usuario dice: " gracias "
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **gracias** = @conversacion:agradecimiento | 
 > **gracias** = @conversacion:cortesia
@@ -472,7 +472,7 @@ Con mucho gusto
 ## Usuario dice: " genial " 
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí
@@ -487,7 +487,7 @@ que alegria saber que todo esta bien para ti,
 ## Usuario dice: " todo bien " 
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **todo** = @adverbio:todo | 
 > **bien** = @conversacion:bienestar | 
@@ -503,7 +503,7 @@ me alegra saber que estas bien,
 ## Usuario dice: " y como estas " 
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **como** = @adverbio:como | 
 > **como** = @persona:yo | 
@@ -519,7 +519,7 @@ Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentr
 
 ## Usuario dice: " bien " 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
@@ -534,7 +534,7 @@ que chevere que estes bien,
 ## Usuario dice: " que hiciste " 
 
 
-## Intención:  conversacion
+> ## Intención:  conversacion
 > ## Entidades:  
 > **hiciste** = @modo_tiempo:indicativo pasado | 
 > **hiciste** = @verbo:hacer | 
@@ -547,7 +547,7 @@ que chevere que estes bien,
 
 ## Usuario dice: " almorzaste " 
 
-## Intención: \#Irrelevant
+> ## Intención: \#Irrelevant
 > 
 
 ## Respuesta del chatbot: 
@@ -565,7 +565,7 @@ Por favor selecciona una de las siguientes opciones:
 ## Usuario dice: " eliminar " 
 
 
-## Intención:  \#eliminar_cita
+> ## Intención:  \#eliminar_cita
 > 
 
 ## Respuesta del chatbot: 
@@ -574,8 +574,8 @@ Para comenzar indícanos tu número y tipo de documento
 
 ## Usuario dice: " 666 demonio " 
 
-## Intención:  \#Irrelevant
-> ## Extrae la entidad:  
+> ## Intención:  \#Irrelevant
+> ## Entidad:  
 > **666** = @sys-number:666
 > 
 
@@ -586,7 +586,7 @@ He interpretado el numero 666, ¿es correcto?
 ## Usuario dice: " si " 
 
 
-## Intención:  \#aceptar
+> ## Intención:  \#aceptar
 > **si** = @decisión:sí
 > 
 
@@ -596,7 +596,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 ## Usuario dice: " demonio " 
 
-## Intención: \#Irrelevant
+> ## Intención: \#Irrelevant
 > 
 
 ## Respuesta del chatbot: 
@@ -606,7 +606,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " ya lo mande " 
 
 
-## Intención:  \#emergencia
+> ## Intención:  \#emergencia
 > ## Entidades:  
 > **ya** = @adverbio:ya | 
 > **lo** = @pronombres:lo | 
@@ -625,7 +625,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " te digo que si " 
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **te** = @pronombres:te | 
 > **digo** = @verbo:decir | 
@@ -641,7 +641,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " bueno " 
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > 
 
 ## Respuesta del chatbot: 
@@ -651,7 +651,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " como estas " 
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **como** = @adverbio:como | 
 > **como** = @persona:yo | 
@@ -668,7 +668,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " genial "
 
 
-## Intención:  \#conversacion
+> ## Intención:  \#conversacion
 > ## Entidades:  
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí 
@@ -681,8 +681,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " jajjaj que buen chiste " 
 
 
-## Intención:  \#conversacion
-> ## Extrae la entidad:  
+> ## Intención:  \#conversacion
+> ## Entidad:  
 > **chiste** = @conversacion:chiste 
 > 
 
@@ -693,7 +693,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " cuanto es 2 + 2 " 
 
 
-## Intención:  \#decisión
+> ## Intención:  \#decisión
 > ## Entidades:  
 > **es** = @persona:ella | 
 > **es** = @persona:él | 
