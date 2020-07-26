@@ -10,7 +10,7 @@ Fecha: 27 junio de 2020  Hora: 5:54 PM
  
 ¿Cuál es el motivo de tú visita el día de hoy Luis?
 
-## Usuario dice: " " Quiero un turno para el odontologo "
+## Usuario dice: " Quiero un turno para el odontologo "
 
 
 > ## El chatbot interpreta el _intent_:  agendar_cita
@@ -33,7 +33,7 @@ Fecha: 27 junio de 2020  Hora: 5:54 PM
 > Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
 > Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## Usuario dice: " " La cita es para mi "
+## Usuario dice: " La cita es para mi "
 
 
 > ## El chatbot interpreta el _intent_:  agendar_cita
