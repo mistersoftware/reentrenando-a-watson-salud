@@ -1,5 +1,5 @@
 # Interacción 1
-### 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
+#### 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
 
 Fecha: 27 junio de 2020  Hora: 5:54 PM  
  
@@ -190,7 +190,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 
 ---
 # Interacción 2
-## 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
+#### 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
 
 Fecha: 30 junio de 2020  Hora: 7:45 PM  
 
@@ -263,7 +263,7 @@ Para comenzar indícanos tu número y tipo de documento
 
 ---
 # Interacción 3
-## 9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
+#### 9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
 
  
  
@@ -383,7 +383,7 @@ He interpretado el numero 3838, ¿es correcto?
 
 ---
 # Interacción 4
-## 24 Turns 6 Minutes 08/07/2020 @ 4:27 PM 7 Intents
+#### 24 Turns 6 Minutes 08/07/2020 @ 4:27 PM 7 Intents
  
 
 Fecha: 08 julio de 2020  Hora: 5:27 PM  
