@@ -13,8 +13,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " Quiero un turno para el odontologo "
 
 
-> ## El chatbot interpreta la intención:  \#agendar_cita
-> ## Extrae las entidades:  
+> ## Intención:  \#agendar_cita
+> ## Entidades:  
 > **Quiero** = @persona:yo |
 > **Quiero** = @verbo:querer |
 > **Quiero** = @modo_tiempo:indicativo presente |
@@ -37,8 +37,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " La cita es para mi "
 
 
-> ## El chatbot interpreta la intención:  \#agendar_cita
-> ## Extrae las entidades:  
+## Intención:  \#agendar_cita
+> ## Entidades:  
 > La = @pronombres:la | 
 > **cita** = @persona:tú | 
 > **cita** = @modo_tiempo:imperativo | 
@@ -74,7 +74,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " 2 "
 
 
-> ## El chatbot interpreta la intención:  \#decisión
+## Intención:  \#decisión
 > ## Extrae la entidad:  
 > 2 = @sys-number:2
 
@@ -91,7 +91,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " Si "
 
 
-> ## El chatbot interpreta la intención:  \#aceptar
+## Intención:  \#aceptar
 > ## Extrae la entidad:  
 > **Si** = @decisión:sí
 > 
@@ -114,7 +114,7 @@ Luis estas son las opciones disponibles para la cita odontológica que se agenda
 ## Usuario dice: " 3 "
 
 
-> ## El chatbot interpreta la intención:  \#decisión
+## Intención:  \#decisión
 > ## Extrae la entidad:  
 > 3 = @sys-number:3
 > 
@@ -133,8 +133,8 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " Esta bien "
 
 
-> ## El chatbot interpreta la intención:  \#aceptar
-> ## Extrae las entidades:  
+## Intención:  \#aceptar
+> ## Entidades:  
 > **Esta** = @pronombres:esta | 
 > **bien** = @adverbio:bien | 
 > **bien** = @conversacion:bienestar
@@ -144,7 +144,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 > 
 > No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   
 
-> ## El chatbot interpreta la intención:  corregir
+## Intención:  corregir
 
 ## Respuesta del chatbot: 
 
@@ -161,7 +161,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " 1 "
 
 
-> ## El chatbot interpreta la intención:  \#decisión
+## Intención:  \#decisión
 > ## Extrae la entidad:  
 > 1 = @sys-number:1
 > 
@@ -180,7 +180,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 ## Usuario dice: " Perfecto "
 
 
-> ## El chatbot interpreta la intención:  \#aceptar
+## Intención:  \#aceptar
 > 
 
 ## Respuesta del chatbot: 
@@ -203,8 +203,8 @@ Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creaci�
 
 ## Usuario dice: " No se "
 
-> ## El chatbot interpreta la intención: \#Irrelevant
-> ## Extrae las entidades:  
+## Intención: \#Irrelevant
+> ## Entidades:  
 > **No** = @decisión:no | 
 > **No se** = @opción:indeterminado | 
 > **se** = @pronombres:se
@@ -217,8 +217,8 @@ Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creaci�
 ## Usuario dice: " estoy enfermo "
 
 
-> ## El chatbot interpreta la intención:  \#aceptar
-> ## Extrae las entidades:  
+## Intención:  \#aceptar
+> ## Entidades:  
 > **estoy** = @persona:yo | 
 > **estoy** = @verbo:estar | 
 > **estoy** = @modo_tiempo:indicativo presente | 
@@ -238,7 +238,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " 2 "
 
 
-> ## El chatbot interpreta la intención:  \#decisión
+## Intención:  \#decisión
 > ## Extrae la entidad:  
 > **2** = @sys-number:2
 > 
@@ -247,8 +247,8 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " 4 "
 
-> ## El chatbot interpreta la intención:  \#decisión
-> ## Extrae las entidades:  
+## Intención:  \#decisión
+> ## Entidades:  
 > **4** = @opción:cuarta | 
 > **4** = @sys-number:4
 > 
@@ -279,8 +279,8 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " que tal "
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **que tal** = @conversacion:cuentamemas | 
 > **tal** = @adverbio:tal
 > 
@@ -292,8 +292,8 @@ Todo bien por aqui, ¿y tu como estas?
 
 ## Usuario dice: " bien "
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
 > 
@@ -307,8 +307,8 @@ que alegria saber que todo esta bien para ti,
 ## Usuario dice: " me duele "
 
 
-> ## El chatbot interpreta la intención:  \#emergencia
-> ## Extrae las entidades:  
+## Intención:  \#emergencia
+> ## Entidades:  
 > **me** = @pronombres:me | 
 > **duele** = @persona:ella | 
 > **duele** = @persona:tú | 
@@ -333,8 +333,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 ## Usuario dice: " medicina "
 
 
-> ## El chatbot interpreta la intención:  \#agendar_cita
-> ## Extrae las entidades:  
+## Intención:  \#agendar_cita
+> ## Entidades:  
 > **medicina** = @opción:médica | 
 > **medicina** = @temática:ciencias naturales
 > 
@@ -348,7 +348,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 
 ## Usuario dice: " 3838
 
-> ## El chatbot interpreta la intención:  \#Irrelevant
+## Intención:  \#Irrelevant
 > ## Extrae la entidad:  
 > **3838** = @sys-number:3838
 > 
@@ -360,7 +360,7 @@ He interpretado el numero 3838, ¿es correcto?
 
 ## Usuario dice: " hey
 
-> ## El chatbot interpreta la intención:  \#conversacion
+## Intención:  \#conversacion
 > 
 
 ## Respuesta del chatbot: 
@@ -369,7 +369,7 @@ He interpretado el numero 3838, ¿es correcto?
 
 ## Usuario dice: " no
 
-> ## El chatbot interpreta la intención:  \#decisión
+## Intención:  \#decisión
 > ## Extrae las entidad:  
 > **no** = @decisión:no
 > 
@@ -397,8 +397,8 @@ Te recuerdo que soy Santiago y, mi labor es colaborarte en la programación, con
 ## Usuario dice: " tengo un problema "
 
 
-> ## El chatbot interpreta la intención:  \#emergencia
-> ## Extrae las entidades:  
+## Intención:  \#emergencia
+> ## Entidades:  
 > **tengo** = @persona:yo | 
 > **tengo** = @verbo:tener | 
 > **tengo** = @modo_tiempo:indicativo presente
@@ -415,7 +415,7 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 
 ## Usuario dice: " corazon "
 
-> ## El chatbot interpreta la intención:  \#Irrelevant
+## Intención:  \#Irrelevant
 
 ## Respuesta del chatbot: 
 > 
@@ -427,8 +427,8 @@ Cuéntame Luis, ¿qué tipo de cita se te ofrece?
 ## Usuario dice: " amor "
 
 
-> ## El chatbot interpreta la intención:  \#corregir
-> ## Extrae las entidades:  
+## Intención:  \#corregir
+> ## Entidades:  
 > **amor** = @conversacion:amor | 
 > **amor** = @temática:amor
 > 
@@ -443,8 +443,8 @@ Cuéntame, ¿que se te ofrece?
 
 ## Usuario dice: " amor por una persona "
 
-> ## El chatbot interpreta la intención:  \#Irrelevant
-> ## Extrae las entidades:  
+## Intención:  \#Irrelevant
+> ## Entidades:  
 > **amor** = @temática:amor | 
 > **amor** = @conversacion:amor | 
 > **por** = @preposición:por | 
@@ -459,8 +459,8 @@ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 ## Usuario dice: " gracias "
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **gracias** = @conversacion:agradecimiento | 
 > **gracias** = @conversacion:cortesia
 > 
@@ -472,8 +472,8 @@ Con mucho gusto
 ## Usuario dice: " genial " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí
 > 
@@ -487,8 +487,8 @@ que alegria saber que todo esta bien para ti,
 ## Usuario dice: " todo bien " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **todo** = @adverbio:todo | 
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
@@ -503,8 +503,8 @@ me alegra saber que estas bien,
 ## Usuario dice: " y como estas " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **como** = @adverbio:como | 
 > **como** = @persona:yo | 
 > **como** = @verbo:comer | 
@@ -519,8 +519,8 @@ Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentr
 
 ## Usuario dice: " bien " 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
 > 
@@ -534,8 +534,8 @@ que chevere que estes bien,
 ## Usuario dice: " que hiciste " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
-> ## Extrae las entidades:  
+## Intención:  conversacion
+> ## Entidades:  
 > **hiciste** = @modo_tiempo:indicativo pasado | 
 > **hiciste** = @verbo:hacer | 
 > **hiciste** = @persona:tú 
@@ -547,7 +547,7 @@ que chevere que estes bien,
 
 ## Usuario dice: " almorzaste " 
 
-> ## El chatbot interpreta la intención: \#Irrelevant
+## Intención: \#Irrelevant
 > 
 
 ## Respuesta del chatbot: 
@@ -565,7 +565,7 @@ Por favor selecciona una de las siguientes opciones:
 ## Usuario dice: " eliminar " 
 
 
-> ## El chatbot interpreta la intención:  \#eliminar_cita
+## Intención:  \#eliminar_cita
 > 
 
 ## Respuesta del chatbot: 
@@ -574,7 +574,7 @@ Para comenzar indícanos tu número y tipo de documento
 
 ## Usuario dice: " 666 demonio " 
 
-> ## El chatbot interpreta la intención:  \#Irrelevant
+## Intención:  \#Irrelevant
 > ## Extrae la entidad:  
 > **666** = @sys-number:666
 > 
@@ -586,7 +586,7 @@ He interpretado el numero 666, ¿es correcto?
 ## Usuario dice: " si " 
 
 
-> ## El chatbot interpreta la intención:  \#aceptar
+## Intención:  \#aceptar
 > **si** = @decisión:sí
 > 
 
@@ -596,7 +596,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 
 ## Usuario dice: " demonio " 
 
-> ## El chatbot interpreta la intención: \#Irrelevant
+## Intención: \#Irrelevant
 > 
 
 ## Respuesta del chatbot: 
@@ -606,8 +606,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " ya lo mande " 
 
 
-> ## El chatbot interpreta la intención:  \#emergencia
-> ## Extrae las entidades:  
+## Intención:  \#emergencia
+> ## Entidades:  
 > **ya** = @adverbio:ya | 
 > **lo** = @pronombres:lo | 
 > **mande** = @persona:ella | 
@@ -625,8 +625,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " te digo que si " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **te** = @pronombres:te | 
 > **digo** = @verbo:decir | 
 > **digo** = @persona:yo | 
@@ -641,7 +641,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " bueno " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
+## Intención:  \#conversacion
 > 
 
 ## Respuesta del chatbot: 
@@ -651,8 +651,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " como estas " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **como** = @adverbio:como | 
 > **como** = @persona:yo | 
 > **como** = @verbo:comer | 
@@ -668,8 +668,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " genial "
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
-> ## Extrae las entidades:  
+## Intención:  \#conversacion
+> ## Entidades:  
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí 
 > 
@@ -681,7 +681,7 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " jajjaj que buen chiste " 
 
 
-> ## El chatbot interpreta la intención:  \#conversacion
+## Intención:  \#conversacion
 > ## Extrae la entidad:  
 > **chiste** = @conversacion:chiste 
 > 
@@ -693,8 +693,8 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ## Usuario dice: " cuanto es 2 + 2 " 
 
 
-> ## El chatbot interpreta la intención:  \#decisión
-> ## Extrae las entidades:  
+## Intención:  \#decisión
+> ## Entidades:  
 > **es** = @persona:ella | 
 > **es** = @persona:él | 
 > **es** = @verbo:ser | 
