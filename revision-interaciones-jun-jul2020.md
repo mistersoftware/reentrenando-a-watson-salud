@@ -1,19 +1,20 @@
 # 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
 
-Fecha: 27 junio de 2020  Hora: 5:54 PM  
+## Fecha: 27 junio de 2020  Hora: 5:54 PM  
  
-Buenas tardes. 
+## Buenas tardes. 
  
-Bienvenido de nuevo Luis al canal de asistencia de Clinica VIP. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
+## Bienvenido de nuevo Luis al canal de asistencia de Clinica VIP. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
  
-Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
+## Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
  
-¿Cuál es el motivo de tú visita el día de hoy Luis?
+## ¿Cuál es el motivo de tú visita el día de hoy Luis?
 
 ## Usuario dice: " Quiero un turno para el odontologo "
 
 
 > ## El chatbot interpreta la intención:  \#agendar_cita
+> ## Extrae las entidades:  
 > **Quiero** = @persona:yo |
 > **Quiero** = @verbo:querer |
 > **Quiero** = @modo_tiempo:indicativo presente |
@@ -57,23 +58,23 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 > **mi** = @pronombres:mí
 > 
 > ## y responde: 
-> Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.   
+> **Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.**   
 >
 >
-> Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
+> **Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
 >
-> 1. 15 de julio de 2018 a las 10:20 am en CM SUBA 
+> **1. 15 de julio de 2018 a las 10:20 am en CM SUBA**  
 >
-> 2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON 
+> **2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON**  
 > 
-> 3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
+> **3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE** 
 >
-> ¿Cuál es tu elección?
+> **¿Cuál es tu elección?**
 
 ## Usuario dice: " 2 "
 
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae la entidad:  
 > 2 = @sys-number:2
 > 
@@ -88,7 +89,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " Si "
 
 
-> ## El chatbot interpreta la intención:  aceptar
+> ## El chatbot interpreta la intención:  \#aceptar
 > ## Extrae la entidad:  
 > **Si** = @decisión:sí
 > 
@@ -111,7 +112,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " 3 "
 
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae la entidad:  
 > 3 = @sys-number:3
 > 
@@ -128,7 +129,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " Esta bien "
 
 
-> ## El chatbot interpreta la intención:  aceptar
+> ## El chatbot interpreta la intención:  \#aceptar
 > ## Extrae las entidades:  
 > **Esta** = @pronombres:esta | 
 > **bien** = @adverbio:bien | 
@@ -154,7 +155,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " 1 "
 
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae la entidad:  
 > 1 = @sys-number:1
 > 
@@ -171,7 +172,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " Perfecto "
 
 
-> ## El chatbot interpreta la intención:  aceptar
+> ## El chatbot interpreta la intención:  \#aceptar
 > 
 > ## y responde: 
 
@@ -181,19 +182,19 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 
 # 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
 
-> Fecha: 30 junio de 2020  Hora: 7:45 PM  
-> 
-> Buenas noches. 
-> 
-> En Clinica VIP nos encanta decirte Bienvenido nuevamente Luis. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
-> 
-> Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creación, consulta, modificación y cancelación de citas médicas y odontológicas.. 
-> 
-> ¿Qué puedo hacer por ti el día de hoy Luis?
+Fecha: 30 junio de 2020  Hora: 7:45 PM  
+
+Buenas noches. 
+
+En Clinica VIP nos encanta decirte Bienvenido nuevamente Luis. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
+
+Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creación, consulta, modificación y cancelación de citas médicas y odontológicas.. 
+
+¿Qué puedo hacer por ti el día de hoy Luis?
 
 ## Usuario dice: " No se "
 
-> ## El chatbot interpreta la intención: Irrelevant
+> ## El chatbot interpreta la intención: \#Irrelevant
 > ## Extrae las entidades:  
 > **No** = @decisión:no | 
 > **No se** = @opción:indeterminado | 
@@ -206,7 +207,7 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 ## Usuario dice: " estoy enfermo "
 
 
-> ## El chatbot interpreta la intención:  aceptar
+> ## El chatbot interpreta la intención:  \#aceptar
 > ## Extrae las entidades:  
 > **estoy** = @persona:yo | 
 > **estoy** = @verbo:estar | 
@@ -226,7 +227,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " 2 "
 
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae la entidad:  
 > **2** = @sys-number:2
 > 
@@ -234,7 +235,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " 4 "
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae las entidades:  
 > **4** = @opción:cuarta | 
 > **4** = @sys-number:4
@@ -251,20 +252,20 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
  
  
-> Fecha: 02 julio de 2020  Hora: 7:16 PM  
-> 
-> Hola, Buena noche. 
-> 
-> En Clinica VIP nos complace poder asistirte Luis. 
-> 
-> Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
-> 
-> ¿Cuál es el motivo de tú visita el día de hoy Luis?
+ Fecha: 02 julio de 2020  Hora: 7:16 PM  
+ 
+ Hola, Buena noche. 
+ 
+ En Clinica VIP nos complace poder asistirte Luis. 
+ 
+Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
+ 
+¿Cuál es el motivo de tú visita el día de hoy Luis?
 
 ## Usuario dice: " que tal "
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **que tal** = @conversacion:cuentamemas | 
 > **tal** = @adverbio:tal
@@ -275,7 +276,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " bien "
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
@@ -289,7 +290,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " me duele "
 
 
-> ## El chatbot interpreta la intención:  emergencia
+> ## El chatbot interpreta la intención:  \#emergencia
 > ## Extrae las entidades:  
 > **me** = @pronombres:me | 
 > **duele** = @persona:ella | 
@@ -311,7 +312,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " medicina "
 
 
-> ## El chatbot interpreta la intención:  agendar_cita
+> ## El chatbot interpreta la intención:  \#agendar_cita
 > ## Extrae las entidades:  
 > **medicina** = @opción:médica | 
 > **medicina** = @temática:ciencias naturales
@@ -324,7 +325,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " 3838
 
-> ## El chatbot interpreta la intención:  Irrelevant
+> ## El chatbot interpreta la intención:  \#Irrelevant
 > ## Extrae la entidad:  
 > **3838** = @sys-number:3838
 > 
@@ -334,7 +335,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " hey
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > 
 > ## y responde: 
 > 
@@ -342,7 +343,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " no
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae las entidad:  
 > **no** = @decisión:no
 > 
@@ -367,7 +368,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " tengo un problema "
 
 
-> ## El chatbot interpreta la intención:  emergencia
+> ## El chatbot interpreta la intención:  \#emergencia
 > ## Extrae las entidades:  
 > **tengo** = @persona:yo | 
 > **tengo** = @verbo:tener | 
@@ -384,7 +385,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " corazon "
 
-> ## El chatbot interpreta la intención:  Irrelevant
+> ## El chatbot interpreta la intención:  \#Irrelevant
 > ## y responde: 
 > 
 > Cuéntame, ¿que se te ofrece?      
@@ -395,7 +396,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " amor "
 
 
-> ## El chatbot interpreta la intención:  corregir
+> ## El chatbot interpreta la intención:  \#corregir
 > ## Extrae las entidades:  
 > **amor** = @conversacion:amor | 
 > **amor** = @temática:amor
@@ -409,7 +410,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " amor por una persona "
 
-> ## El chatbot interpreta la intención:  Irrelevant
+> ## El chatbot interpreta la intención:  \#Irrelevant
 > ## Extrae las entidades:  
 > **amor** = @temática:amor | 
 > **amor** = @conversacion:amor | 
@@ -424,7 +425,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " gracias "
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **gracias** = @conversacion:agradecimiento | 
 > **gracias** = @conversacion:cortesia
@@ -436,7 +437,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " genial " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí
@@ -450,7 +451,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " todo bien " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **todo** = @adverbio:todo | 
 > **bien** = @conversacion:bienestar | 
@@ -465,7 +466,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " y como estas " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **como** = @adverbio:como | 
 > **como** = @persona:yo | 
@@ -480,7 +481,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " bien " 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **bien** = @conversacion:bienestar | 
 > **bien** = @adverbio:bien
@@ -506,7 +507,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " almorzaste " 
 
-> ## El chatbot interpreta la intención: Irrelevant
+> ## El chatbot interpreta la intención: \#Irrelevant
 > 
 > ## y responde: 
 > 
@@ -521,7 +522,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " eliminar " 
 
 
-> ## El chatbot interpreta la intención:  eliminar_cita
+> ## El chatbot interpreta la intención:  \#eliminar_cita
 > 
 > ## y responde: 
 > 
@@ -529,7 +530,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " 666 demonio " 
 
-> ## El chatbot interpreta la intención:  Irrelevant
+> ## El chatbot interpreta la intención:  \#Irrelevant
 > ## Extrae la entidad:  
 > **666** = @sys-number:666
 > 
@@ -540,7 +541,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " si " 
 
 
-> ## El chatbot interpreta la intención:  aceptar
+> ## El chatbot interpreta la intención:  \#aceptar
 > **si** = @decisión:sí
 > 
 > ## y responde: 
@@ -549,7 +550,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 
 ## Usuario dice: " demonio " 
 
-> ## El chatbot interpreta la intención: Irrelevant
+> ## El chatbot interpreta la intención: \#Irrelevant
 > 
 > ## y responde: 
 > 
@@ -558,7 +559,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " ya lo mande " 
 
 
-> ## El chatbot interpreta la intención:  emergencia
+> ## El chatbot interpreta la intención:  \#emergencia
 > ## Extrae las entidades:  
 > **ya** = @adverbio:ya | 
 > **lo** = @pronombres:lo | 
@@ -576,7 +577,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " te digo que si " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **te** = @pronombres:te | 
 > **digo** = @verbo:decir | 
@@ -591,7 +592,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " bueno " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > 
 > ## y responde: 
 > 
@@ -600,7 +601,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " como estas " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **como** = @adverbio:como | 
 > **como** = @persona:yo | 
@@ -616,7 +617,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " genial "
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae las entidades:  
 > **genial** = @conversacion:bienestar | 
 > **genial** = @decisión:sí 
@@ -628,7 +629,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " jajjaj que buen chiste " 
 
 
-> ## El chatbot interpreta la intención:  conversacion
+> ## El chatbot interpreta la intención:  \#conversacion
 > ## Extrae la entidad:  
 > **chiste** = @conversacion:chiste 
 > 
@@ -639,7 +640,7 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 ## Usuario dice: " cuanto es 2 + 2 " 
 
 
-> ## El chatbot interpreta la intención:  decisión
+> ## El chatbot interpreta la intención:  \#decisión
 > ## Extrae las entidades:  
 > **es** = @persona:ella | 
 > **es** = @persona:él | 
@@ -650,5 +651,5 @@ En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes op
 > ## y responde: 
 >
 > No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
-16:33
+
 
