@@ -1,709 +1,711 @@
-6 Turns 3 Minutes 06/27/2020 @ 3:50 PM 4 Intents
-3:50 PM
- 
- 
- 
-Fecha: 27 junio de 2020  Hora: 5:50 PM  
- 
- Hola, Buenas tardes. 
- 
- En Clinica VIP nos encanta decirte Bienvenido nuevamente Luis. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
- 
- Como bien sabes puedes llamarme Santiago y, te recuerdo que mi labor es asistirte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas. 
- 
-¿Qué puedo hacer por ti el día de hoy Luis?
+# Interacción 1
+#### 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
 
-## Usuario dice: Quiero un turno
-
-
-> ## El chatbot interpreta:  corregir
-Quiero = @persona:yo
-Quiero = @verbo:querer
-Quiero = @modo_tiempo:indicativo presente
-turno = @dato:turno
- 
-En Clinica VIP nos gusta ayudarte,   Por favor selecciona una de las siguientes opciones:      1. Asignar   2. Consultar   3. Reprogramar   4. Eliminar  
-1
-
-
-> ## El chatbot interpreta:  decisión
-1 = @sys-number:1
-Asignar
-
-
-> ## El chatbot interpreta:  agendar_cita
-1. Asignar
-
-
-> ## El chatbot interpreta:  agendar_cita
-1 = @sys-number:1
-3:54 PM
-
-****************
-
-6 Turns 3 Minutes 06/27/2020 @ 3:50 PM 4 Intents
-3:50 PM
- 
- 
-Fecha: 27 junio de 2020  Hora: 5:50 PM  
- 
- Hola, Buenas tardes. 
- 
- En Clinica VIP nos encanta decirte Bienvenido nuevamente Luis. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
- 
- Como bien sabes puedes llamarme Santiago y, te recuerdo que mi labor es asistirte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas. 
- 
-¿Qué puedo hacer por ti el día de hoy Luis?
-
-## Usuario dice: Quiero un turno
-
-
-> ## El chatbot interpreta:  corregir
-Quiero = @persona:yo
-Quiero = @verbo:querer
-Quiero = @modo_tiempo:indicativo presente
-turno = @dato:turno
- 
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
-1. Asignar   
-2. Consultar   
-3. Reprogramar   
-4. Eliminar  
-
-## Usuario dice: 1
-
-
-> ## El chatbot interpreta:  decisión
-1 = @sys-number:1
-Asignar
-
-
-> ## El chatbot interpreta:  agendar_cita
-1. Asignar
-
-
-> ## El chatbot interpreta:  agendar_cita
-1 = @sys-number:1
-3:54 PM
-
-
-************
-
- 16 Turns 3 Minutes 06/27/2020 @ 3:54 PM 5 Intents
-3:54 PM
- 
- 
- 
 Fecha: 27 junio de 2020  Hora: 5:54 PM  
  
- Buenas tardes. 
+Buenas tardes. 
  
- Bienvenido de nuevo Luis al canal de asistencia de Clinica VIP. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
+Bienvenido de nuevo Luis al canal de asistencia de Clinica VIP. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
  
- Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
+Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
  
 ¿Cuál es el motivo de tú visita el día de hoy Luis?
 
-## Usuario dice: Quiero un turno para el odontologo
+## Usuario dice: " Quiero un turno para el odontologo "
 
 
-> ## El chatbot interpreta:  agendar_cita
-Quiero = @persona:yo
-Quiero = @verbo:querer
-Quiero = @modo_tiempo:indicativo presente
-turno = @dato:turno
-para = @persona:tú
-para = @preposición:para
-para = @modo_tiempo:imperativo
-para = @persona:él
-para = @persona:ella
-para = @modo_tiempo:indicativo presente
-el = @preposición:la del
-el = @pronombres:el
-odontologo = @opción:odontológica
+> ## Intención:  \#agendar_cita
+> ## Entidades:  
+> **Quiero** = @persona:yo |
+> **Quiero** = @verbo:querer |
+> **Quiero** = @modo_tiempo:indicativo presente |
+> **turno** = @dato:turno |
+> **para** = @persona:tú |
+> **para** = @preposición:para |
+> **para** = @modo_tiempo:imperativo |
+> **para** = @persona:él |
+> **para** = @persona:ella |
+> **para** = @modo_tiempo:indicativo presente |
+> **el** = @preposición:la del |
+> **el** = @pronombres:el |
+> **odontologo** = @opción:odontológica 
+> 
+## Respuesta del chatbot: 
  
-Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
-Si la cita es para ti házmelo saber para usar tus preferencias habituales.
+ Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
+ Si la cita es para ti házmelo saber para usar tus preferencias habituales. 
 
-## El usuario responde: La cita es para mi
+## Usuario dice: " La cita es para mi "
 
 
-> ## El chatbot interpreta:  agendar_cita
-La = @pronombres:la
-cita = @persona:tú
-cita = @modo_tiempo:imperativo
-cita = @persona:él
-cita = @persona:ella
-cita = @verbo:citar
-cita = @modo_tiempo:indicativo presente
-es = @persona:él
-es = @persona:ella
-es = @verbo:ser
-para = @persona:tú
-para = @preposición:para
-para = @modo_tiempo:imperativo
-para = @persona:él
-para = @persona:ella
-para = @modo_tiempo:indicativo presente
-mi = @pronombres:mí
- 
-Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.   
+> ## Intención:  \#agendar_cita
+> ## Entidades:  
+> La = @pronombres:la | 
+> **cita** = @persona:tú | 
+> **cita** = @modo_tiempo:imperativo | 
+> **cita** = @persona:él | 
+> **cita** = @persona:ella | 
+> **cita** = @verbo:citar | 
+> **cita** = @modo_tiempo:indicativo presente | 
+> **es** = @persona:él | 
+> **es** = @persona:ella | 
+> **es** = @verbo:ser | 
+> **para** = @persona:tú | 
+> **para** = @preposición:para | 
+> **para** = @modo_tiempo:imperativo | 
+> **para** = @persona:él | 
+> **para** = @persona:ella | 
+> **para** = @modo_tiempo:indicativo presente | 
+> **mi** = @pronombres:mí
+> 
 
+## Respuesta del chatbot: 
+ Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.**   
  
-Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:    
+ Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
  
-1. 15 de julio de 2018 a las 10:20 am en CM SUBA  
- 
-2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON  
- 
-3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE  
- 
+ 1. 15 de julio de 2018 a las 10:20 am en CM SUBA
+
+2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON
+
+3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
+
 ¿Cuál es tu elección?
 
-## Usuario dice: 2
+## Usuario dice: " 2 "
 
 
-> ## El chatbot interpreta:  decisión
-2 = @sys-number:2
- 
-Has elegido la segunda opción:
- 
+> ## Intención:  \#decisión
+> ## Entidad:  
+> 2 = @sys-number:2
+
+## Respuesta del chatbot: 
+
+ Has elegido la segunda opción:
+
 Luis tu cita odontológica quedará reservada para el día 15 de julio de 2018 a las 4:00 pm en el centro médico CM Marbella, con el documento CC 1-10-1110.     Recuerda que debes llegar 30 minutos antes y pasar por el punto ágil para facturar tu cuota moderadora.    Si no puedes ir a tu cita, cancela con 3 horas de anticipación y permite que alguien la tome por ti.    
- 
+
 Ten presente que si no asistes se genera multa por un valor de $ 12.000.
- 
+
 ¿Esta bien?
 
-## Usuario dice: Si
+## Usuario dice: " Si "
 
 
-> ## El chatbot interpreta:  aceptar
-Si = @decisión:sí
- 
+> ## Intención:  \#aceptar
+> ## Entidad:  
+> **Si** = @decisión:sí
+> 
 
-No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   Esta es una simulación de la consulta al servidor. Pulsa una tecla y luego enter para continuar.
+## Respuesta del chatbot: 
 
+
+ No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   Esta es una simulación de la consulta al servidor. Pulsa una tecla y luego enter para continuar.
 
 Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:    
- 
+
 1. 15 de julio de 2018 a las 10:20 am en CM SUBA  
- 
+
 2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON  
- 
+
 3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE  
- 
+
 ¿Cuál es la opción de tu preferencia?
 
-## Usuario dice: 3
+## Usuario dice: " 3 "
 
 
-> ## El chatbot interpreta:  decisión
-3 = @sys-number:3
- 
+> ## Intención:  \#decisión
+> ## Entidad:  
+> 3 = @sys-number:3
+> 
+
+## Respuesta del chatbot: 
+
+
 Has elegido la tercera opción:
- 
-Luis tu cita odontológica quedará reservada para el día 26 de julio de 2018 a las 1:00 PM en el centro médico CM Marbella, con el documento CC 1-10-1110.     Recuerda que debes llegar 30 minutos antes y pasar por el punto ágil para facturar tu cuota moderadora.    Si no puedes ir a tu cita, cancela con 3 horas de anticipación y permite que alguien la tome por ti.    
- 
+
+ Luis tu cita odontológica quedará reservada para el día 26 de julio de 2018 a las 1:00 PM en el centro médico CM Marbella, con el documento CC 1-10-1110.     Recuerda que debes llegar 30 minutos antes y pasar por el punto ágil para facturar tu cuota moderadora.    Si no puedes ir a tu cita, cancela con 3 horas de anticipación y permite que alguien la tome por ti.    
+
 Ten presente que si no asistes se genera multa por un valor de $ 12.000.
- 
+
 ¿Esta bien?
 
-## Usuario dice: Esta bien
+## Usuario dice: " Esta bien "
 
 
-> ## El chatbot interpreta:  aceptar
-Esta = @pronombres:esta
-bien = @adverbio:bien
-bien = @conversacion:bienestar
- 
- 
-No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   
+> ## Intención:  \#aceptar
+> ## Entidades:  
+> **Esta** = @pronombres:esta | 
+> **bien** = @adverbio:bien | 
+> **bien** = @conversacion:bienestar
+> 
 
-> ## El chatbot interpreta:  corregir
- 
-Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:    
- 
-1. 15 de julio de 2018 a las 10:20 am en CM SUBA  
- 
-2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON  
- 
-3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE  
- 
-¿Cuál es la opción de tu preferencia?
+## Respuesta del chatbot: 
+> 
+> No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   
 
-## Usuario dice: 1
+> ## Intención:  corregir
+
+## Respuesta del chatbot: 
+
+ Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:    
+
+ 1. 15 de julio de 2018 a las 10:20 am en CM SUBA  
+
+ 2. 15 de julio de 2018 a las 4:00 pm en CM FONTIBON  
+
+ 3. 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE  
+
+ ¿Cuál es la opción de tu preferencia?
+
+## Usuario dice: " 1 "
 
 
-> ## El chatbot interpreta:  decisión
-1 = @sys-number:1
- 
+> ## Intención:  \#decisión
+> ## Entidad:  
+> 1 = @sys-number:1
+> 
+
+## Respuesta del chatbot: 
+> 
+
 Has elegido la primera opción:
- 
+
 Luis tu cita odontológica quedará reservada para el día 15 de julio de 2018 a las 10:20 am en el centro médico CM Marbella, con el documento CC 1-10-1110.     Recuerda que debes llegar 30 minutos antes y pasar por el punto ágil para facturar tu cuota moderadora.    Si no puedes ir a tu cita, cancela con 3 horas de anticipación y permite que alguien la tome por ti.    
- 
+
 Ten presente que si no asistes se genera multa por un valor de $ 12.000.
- 
+
 ¿Esta bien?
 
-## Usuario dice: Perfecto
+## Usuario dice: " Perfecto "
 
 
-> ## El chatbot interpreta:  aceptar
- 
+> ## Intención:  \#aceptar
+> 
+
+## Respuesta del chatbot: 
 
 
-> ## El chatbot interpreta:  corregir
- 
-No fue posible agendarla. Por favor espera un momento mientras buscamos otras opciones disponibles.   Esta es una simulación de la consulta al servidor. Pulsa una tecla y luego enter para continuar.
 
-3:58 PM
-
-
-***********************
- 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
-5:45 PM
- 
+---
+# Interacción 2
+#### 6 Turns 1 Minutes 06/30/2020 @ 5:45 PM 4 Intents
 
 Fecha: 30 junio de 2020  Hora: 7:45 PM  
- 
- Buenas noches. 
- 
- En Clinica VIP nos encanta decirte Bienvenido nuevamente Luis. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
- 
- Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creación, consulta, modificación y cancelación de citas médicas y odontológicas.. 
- 
+
+Buenas noches. 
+
+En Clinica VIP nos encanta decirte Bienvenido nuevamente Luis. Para nosotros es un gran placer poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
+
+Te recuerdo que mi nombre es Santiago y estoy aquí para ayudarte con la creación, consulta, modificación y cancelación de citas médicas y odontológicas.. 
+
 ¿Qué puedo hacer por ti el día de hoy Luis?
 
-## Usuario dice: No se
-Irrelevant
-No = @decisión:no
-No se = @opción:indeterminado
-se = @pronombres:se
- 
+## Usuario dice: " No se "
+
+> ## Intención: \#Irrelevant
+> ## Entidades:  
+> **No** = @decisión:no | 
+> **No se** = @opción:indeterminado | 
+> **se** = @pronombres:se
+> 
+
+## Respuesta del chatbot: 
+
 ¿Qué te trae por aquí entonces?
 
-## Usuario dice: estoy enfermo
+## Usuario dice: " estoy enfermo "
 
 
-> ## El chatbot interpreta:  aceptar
-estoy = @persona:yo
-estoy = @verbo:estar
-estoy = @modo_tiempo:indicativo presente
-estoy enfermo = @emergencia:estoy enfermo
-estoy enfermo = @emergencia:triage5
- 
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
+> ## Intención:  \#aceptar
+> ## Entidades:  
+> **estoy** = @persona:yo | 
+> **estoy** = @verbo:estar | 
+> **estoy** = @modo_tiempo:indicativo presente | 
+> **estoy enfermo** = @emergencia:estoy enfermo | 
+> **estoy enfermo** = @emergencia:triage5
+> 
+
+## Respuesta del chatbot: 
+
+En Clinica VIP nos gusta ayudarte, por favor selecciona una de las siguientes opciones:      
+
 1. Asignar   
 2. Consultar   
 3. Reprogramar   
 4. Eliminar  
 
-## Usuario dice: 2
+## Usuario dice: " 2 "
 
 
-> ## El chatbot interpreta:  decisión
-2 = @sys-number:2
+> ## Intención:  \#decisión
+> ## Entidad:  
+> **2** = @sys-number:2
+> 
 
-## Usuario dice: 4
+## Respuesta del chatbot: 
 
+## Usuario dice: " 4 "
 
-> ## El chatbot interpreta:  decisión
-4 = @opción:cuarta
-4 = @sys-number:4
- 
-Para comenzar indícanos tu número y tipo de documento
-5:46 PM
+> ## Intención:  \#decisión
+> ## Entidades:  
+> **4** = @opción:cuarta | 
+> **4** = @sys-number:4
+> 
 
+## Respuesta del chatbot: 
 
-********************
-
-3 Turns 3 Minutes 06/30/2020 @ 10:06 PM 2 Intents
-10:06 PM
- 
-
-Fecha: 30 junio de 2020  Hora: 10:06 PM  
- 
- Hola, Buena noche. 
- 
- En Clinica VIP te damos la bienvenida Luis. Nos complace poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
- 
- Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
- 
-¿En qué te puedo ayudar Luis?
-
-## Usuario dice: PROBAR
- 
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
-1. Asignar   
-2. Consultar   
-3. Reprogramar   
-4. Eliminar  
-
-10:10 PM
-
-******************
-
-8 Turns 1 Minutes 07/01/2020 @ 3:52 PM 2 Intents
-3:52 PM
- 
-Fecha: 01 julio de 2020  Hora: 3:52 PM  
- 
- Hola, Buenas tardes. 
- 
- En Clinica VIP te damos la bienvenida Luis. 
- 
- Te recuerdo que soy Santiago y, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas. 
- 
-¿Como podemos ayudarte Luis?
-
-## Usuario dice: k
- 
-En Clinica VIP nos gusta ayudarte,   
-Por favor selecciona una de las siguientes opciones:      
-1. Asignar   
-2. Consultar   
-3. Reprogramar   
-4. Eliminar  
-
-## Usuario dice: 1
-1
-2
-3
- 
 Para comenzar indícanos tu número y tipo de documento
 
-## Usuario dice: 1
- 
-Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita     
-Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## El usuario responde: 
 
-*****************
 
-9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
-7:16 PM
+---
+# Interacción 3
+#### 9 Turns 1 Minutes 07/02/2020 @ 7:16 PM 5 Intents
+
  
  
-Fecha: 02 julio de 2020  Hora: 7:16 PM  
+ Fecha: 02 julio de 2020  Hora: 7:16 PM  
  
  Hola, Buena noche. 
  
  En Clinica VIP nos complace poder asistirte Luis. 
  
- Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
+Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites. 
  
 ¿Cuál es el motivo de tú visita el día de hoy Luis?
 
-## Usuario dice: que tal
+## Usuario dice: " que tal "
 
 
-> ## El chatbot interpreta:  conversacion
-que tal = @conversacion:cuentamemas
-tal = @adverbio:tal
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **que tal** = @conversacion:cuentamemas | 
+> **tal** = @adverbio:tal
+> 
+
+## Respuesta del chatbot: 
+> 
+
 Todo bien por aqui, ¿y tu como estas?
-bien
 
+## Usuario dice: " bien "
 
-> ## El chatbot interpreta:  conversacion
-bien = @conversacion:bienestar
-bien = @adverbio:bien
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **bien** = @conversacion:bienestar | 
+> **bien** = @adverbio:bien
+> 
+
+## Respuesta del chatbot: 
+
 que alegria saber que todo esta bien para ti,
- 
+
 ¿en que te puedo colaborar?
-me duele
+
+## Usuario dice: " me duele "
 
 
-> ## El chatbot interpreta:  emergencia
-me = @pronombres:me
-duele = @persona:ella
-duele = @persona:tú
-duele = @modo_tiempo:imperativo
-duele = @persona:él
-duele = @verbo:doler
-duele = @modo_tiempo:indicativo presente
+> ## Intención:  \#emergencia
+> ## Entidades:  
+> **me** = @pronombres:me | 
+> **duele** = @persona:ella | 
+> **duele** = @persona:tú | 
+> **duele** = @modo_tiempo:imperativo | 
+> **duele** = @persona:él | 
+> **duele** = @verbo:doler | 
+> **duele** = @modo_tiempo:indicativo presente
+> 
+
+## Respuesta del chatbot: 
+
  
+
 Recuerda que si se trata de una emergencia debes llamar a nuestra linea 1-800
- 
-Cuéntame Luis, 
-¿qué tipo de cita se te ofrece?      
+
+Cuéntame Luis, ¿qué tipo de cita se te ofrece?      
+
+
 1. Medicina general,   
 2. Odontología Básica.
 
-## Usuario dice: medicina
+## Usuario dice: " medicina "
 
 
-> ## El chatbot interpreta:  agendar_cita
-medicina = @opción:médica
-medicina = @temática:ciencias naturales
+> ## Intención:  \#agendar_cita
+> ## Entidades:  
+> **medicina** = @opción:médica | 
+> **medicina** = @temática:ciencias naturales
+> 
+
+## Respuesta del chatbot: 
+
  
-Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
-Si la cita es para ti házmelo saber para usar tus preferencias habituales.
+ Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
 
-## El usuario responde: 3838
+ Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-> ## El chatbot interpreta:  Irrelevant
-3838 = @sys-number:3838
- 
+## Usuario dice: " 3838
+
+> ## Intención:  \#Irrelevant
+> ## Entidad:  
+> **3838** = @sys-number:3838
+> 
+
+## Respuesta del chatbot: 
+
+
 He interpretado el numero 3838, ¿es correcto?
 
-## El usuario responde: hey
+## Usuario dice: " hey
 
-> ## El chatbot interpreta:  conversacion
+> ## Intención:  \#conversacion
+> 
+
+## Respuesta del chatbot: 
+
+ No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
+
+## Usuario dice: " no
+
+> ## Intención:  \#decisión
+> ## Extrae las entidad:  
+> **no** = @decisión:no
+> 
+
+## Respuesta del chatbot: 
+
+ No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
+
+
+
+---
+# Interacción 4
+#### 24 Turns 6 Minutes 08/07/2020 @ 4:27 PM 7 Intents
  
-No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: no
-
-> ## El chatbot interpreta:  decisión
-no = @decisión:no
- 
-No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
-7:17 PM
-
-**************
-
-
-24 Turns 6 Minutes 08/07/2020 @ 4:27 PM 7 Intents
-16:27
- 
 Fecha: 08 julio de 2020  Hora: 5:27 PM  
- 
- Hola, Buenas tardes. 
- 
+
+Hola, Buenas tardes. 
+
  Clinica VIP en linea para ti 24 horas estimado Luis. Nos complace poder asistirte en los diferentes servicios que se encuentran a disposición de nuestros afiliados. 
- 
- Te recuerdo que soy Santiago y, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas. 
- 
-¿Como podemos ayudarte Luis?
 
-## Usuario dice: tengo un problema
+Te recuerdo que soy Santiago y, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas. 
+
+ ¿Como podemos ayudarte Luis?
+
+## Usuario dice: " tengo un problema "
 
 
-> ## El chatbot interpreta:  emergencia
-tengo = @persona:yo
-tengo = @verbo:tener
-tengo = @modo_tiempo:indicativo presente
- 
+> ## Intención:  \#emergencia
+> ## Entidades:  
+> **tengo** = @persona:yo | 
+> **tengo** = @verbo:tener | 
+> **tengo** = @modo_tiempo:indicativo presente
+> 
+
+## Respuesta del chatbot: 
+
 Recuerda que si se trata de una emergencia debes llamar a nuestra linea 1-800
- 
+
 Cuéntame Luis, ¿qué tipo de cita se te ofrece?
-      1. Medicina general,   
-      2. Odontología Básica.
 
-## Usuario dice: corazon
-
-> ## El chatbot interpreta:  Irrelevant
- 
-Cuéntame, ¿que se te ofrece?      
 1. Medicina general,   
 2. Odontología Básica.
 
-## Usuario dice: amor
+## Usuario dice: " corazon "
+
+> ## Intención:  \#Irrelevant
+
+## Respuesta del chatbot: 
+> 
+> Cuéntame, ¿que se te ofrece?      
+> 
+> 1. Medicina general,   
+> 2. Odontología Básica.
+
+## Usuario dice: " amor "
 
 
-> ## El chatbot interpreta:  corregir
-amor = @conversacion:amor
-amor = @temática:amor
- 
+> ## Intención:  \#corregir
+> ## Entidades:  
+> **amor** = @conversacion:amor | 
+> **amor** = @temática:amor
+> 
+
+## Respuesta del chatbot: 
+> 
+
 Cuéntame, ¿que se te ofrece?      
+
 1. Medicina general,   
 2. Odontología Básica.
 
-## Usuario dice: amor por una persona
+## Usuario dice: " amor por una persona "
 
-> ## El chatbot interpreta:  Irrelevant
-amor = @temática:amor
-amor = @conversacion:amor
-por = @preposición:por
-una = @sys-number:1
- 
+> ## Intención:  \#Irrelevant
+> ## Entidades:  
+> **amor** = @temática:amor | 
+> **amor** = @conversacion:amor | 
+> **por** = @preposición:por | 
+> **una** = @sys-number:1
+> 
+
+## Respuesta del chatbot: 
+
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita médica     
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
 
-## El usuario responde: gracias
+## Usuario dice: " gracias "
 
 
-> ## El chatbot interpreta:  conversacion
-gracias = @conversacion:agradecimiento
-gracias = @conversacion:cortesia
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **gracias** = @conversacion:agradecimiento | 
+> **gracias** = @conversacion:cortesia
+> 
+
+## Respuesta del chatbot: 
+
 Con mucho gusto
 
-## El usuario responde: genial
+## Usuario dice: " genial " 
 
 
-> ## El chatbot interpreta:  conversacion
-genial = @conversacion:bienestar
-genial = @decisión:sí
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **genial** = @conversacion:bienestar | 
+> **genial** = @decisión:sí
+> 
+
+## Respuesta del chatbot: 
+
 que alegria saber que todo esta bien para ti,
- 
+
 ¿en que te puedo colaborar?
 
-## El usuario responde: todo bien
+## Usuario dice: " todo bien " 
 
 
-> ## El chatbot interpreta:  conversacion
-todo = @adverbio:todo
-bien = @conversacion:bienestar
-bien = @adverbio:bien
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **todo** = @adverbio:todo | 
+> **bien** = @conversacion:bienestar | 
+> **bien** = @adverbio:bien
+> 
+
+## Respuesta del chatbot: 
+
 me alegra saber que estas bien,
- 
+
 ¿en que te puedo colaborar?
 
-## El usuario responde: y como estas
+## Usuario dice: " y como estas " 
 
 
-> ## El chatbot interpreta:  conversacion
-como = @adverbio:como
-como = @persona:yo
-como = @verbo:comer
-como = @modo_tiempo:indicativo presente
-como estas = @conversacion:como estas
-estas = @pronombres:estas
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **como** = @adverbio:como | 
+> **como** = @persona:yo | 
+> **como** = @verbo:comer | 
+> **como** = @modo_tiempo:indicativo presente | 
+> **como estas** = @conversacion:como estas | 
+> **estas** = @pronombres:estas
+> 
+
+## Respuesta del chatbot: 
+
 Me encuentro genial, es todo un detalle que lo preguntes, ¿Tú como te encuentras?
 
-## El usuario responde: bien
+## Usuario dice: " bien " 
 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **bien** = @conversacion:bienestar | 
+> **bien** = @adverbio:bien
+> 
 
-> ## El chatbot interpreta:  conversacion
-bien = @conversacion:bienestar
-bien = @adverbio:bien
- 
+## Respuesta del chatbot: 
+
 que chevere que estes bien,
- 
+
 ¿como puedo ayudarte?
 
-## El usuario responde: que hiciste
+## Usuario dice: " que hiciste " 
 
 
-> ## El chatbot interpreta:  conversacion
-hiciste = @modo_tiempo:indicativo pasado
-hiciste = @verbo:hacer
-hiciste = @persona:tú
- 
+> ## Intención:  conversacion
+> ## Entidades:  
+> **hiciste** = @modo_tiempo:indicativo pasado | 
+> **hiciste** = @verbo:hacer | 
+> **hiciste** = @persona:tú 
+> 
+
+## Respuesta del chatbot: 
+
 ¿te puedo ayudar en algo?
 
-## El usuario responde: almorzaste
+## Usuario dice: " almorzaste " 
 
-> ## El chatbot interpreta: Irrelevant
- 
+> ## Intención: \#Irrelevant
+> 
+
+## Respuesta del chatbot: 
+> 
+
 En Clinica VIP nos gusta ayudarte,   
+
 Por favor selecciona una de las siguientes opciones:      
+
 1. Asignar   
 2. Consultar   
 3. Reprogramar   
 4. Eliminar  
 
-## El usuario responde: eliminar
+## Usuario dice: " eliminar " 
 
 
-> ## El chatbot interpreta:  eliminar_cita
- 
+> ## Intención:  \#eliminar_cita
+> 
+
+## Respuesta del chatbot: 
+
 Para comenzar indícanos tu número y tipo de documento
 
-## El usuario responde: 666 demonio
+## Usuario dice: " 666 demonio " 
 
-> ## El chatbot interpreta:  Irrelevant
-666 = @sys-number:666
- 
+> ## Intención:  \#Irrelevant
+> ## Entidad:  
+> **666** = @sys-number:666
+> 
+
+## Respuesta del chatbot: 
+
 He interpretado el numero 666, ¿es correcto?
 
-## El usuario responde: si
+## Usuario dice: " si " 
 
 
-> ## El chatbot interpreta:  aceptar
-si = @decisión:sí
- 
+> ## Intención:  \#aceptar
+> **si** = @decisión:sí
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: demonio
+## Usuario dice: " demonio " 
 
-> ## El chatbot interpreta: Irrelevant
- 
+> ## Intención: \#Irrelevant
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: ya lo mande
+## Usuario dice: " ya lo mande " 
 
 
-> ## El chatbot interpreta:  emergencia
-ya = @adverbio:ya
-lo = @pronombres:lo
-mande = @persona:ella
-mande = @modo_tiempo:imperativo
-mande = @persona:él
-mande = @persona:yo
-mande = @modo_tiempo:subjuntivo presente
-mande = @verbo:mandar
- 
+> ## Intención:  \#emergencia
+> ## Entidades:  
+> **ya** = @adverbio:ya | 
+> **lo** = @pronombres:lo | 
+> **mande** = @persona:ella | 
+> **mande** = @modo_tiempo:imperativo | 
+> **mande** = @persona:él | 
+> **mande** = @persona:yo | 
+> **mande** = @modo_tiempo:subjuntivo presente | 
+> **mande** = @verbo:mandar 
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: te digo que si
+## Usuario dice: " te digo que si " 
 
 
-> ## El chatbot interpreta:  conversacion
-te = @pronombres:te
-digo = @verbo:decir
-digo = @persona:yo
-digo = @modo_tiempo:indicativo presente
-si = @decisión:sí
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **te** = @pronombres:te | 
+> **digo** = @verbo:decir | 
+> **digo** = @persona:yo | 
+> **digo** = @modo_tiempo:indicativo presente | 
+> **si** = @decisión:sí 
+> 
+
+## Respuesta del chatbot: 
+
+ No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
+
+## Usuario dice: " bueno " 
+
+
+> ## Intención:  \#conversacion
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: bueno
+## Usuario dice: " como estas " 
 
 
-> ## El chatbot interpreta:  conversacion
- 
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **como** = @adverbio:como | 
+> **como** = @persona:yo | 
+> **como** = @verbo:comer | 
+> **como** = @modo_tiempo:indicativo presente | 
+> **como estas** = @conversacion:como estas | 
+> **estas** = @pronombres:estas 
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: como estas
+## Usuario dice: " genial "
 
 
-> ## El chatbot interpreta:  conversacion
-como = @adverbio:como
-como = @persona:yo
-como = @verbo:comer
-como = @modo_tiempo:indicativo presente
-como estas = @conversacion:como estas
-estas = @pronombres:estas
- 
-No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
-genial
+> ## Intención:  \#conversacion
+> ## Entidades:  
+> **genial** = @conversacion:bienestar | 
+> **genial** = @decisión:sí 
+> 
 
+## Respuesta del chatbot: 
 
-> ## El chatbot interpreta:  conversacion
-genial = @conversacion:bienestar
-genial = @decisión:sí
- 
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: jajjaj que buen chiste
+## Usuario dice: " jajjaj que buen chiste " 
 
 
-> ## El chatbot interpreta:  conversacion
-chiste = @conversacion:chiste
- 
+> ## Intención:  \#conversacion
+> ## Entidad:  
+> **chiste** = @conversacion:chiste 
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
 
-## El usuario responde: cuanto es 2 + 2
+## Usuario dice: " cuanto es 2 + 2 " 
 
 
-> ## El chatbot interpreta:  decisión
-es = @persona:ella
-es = @persona:él
-es = @verbo:ser
-2 = @sys-number:2
-2 = @sys-number:2
- 
+> ## Intención:  \#decisión
+> ## Entidades:  
+> **es** = @persona:ella | 
+> **es** = @persona:él | 
+> **es** = @verbo:ser | 
+> **2** = @sys-number:2 | 
+> **2** = @sys-number:2 
+> 
+
+## Respuesta del chatbot: 
+
 No he recibido el tipo de documento que acompaña el numero que me acabas de dar. Por favor repitemelo de nuevo.
-16:33
+
 
