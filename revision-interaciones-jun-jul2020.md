@@ -14,19 +14,19 @@ Fecha: 27 junio de 2020  Hora: 5:54 PM
 
 
 > ## El chatbot interpreta:  agendar_cita
-> Quiero = @persona:yo
-> Quiero = @verbo:querer
-> Quiero = @modo_tiempo:indicativo presente
-> turno = @dato:turno
-> para = @persona:tú
-> para = @preposición:para
-> para = @modo_tiempo:imperativo
-> para = @persona:él
-> para = @persona:ella
-> para = @modo_tiempo:indicativo presente
-> el = @preposición:la del
-> el = @pronombres:el
-> odontologo = @opción:odontológica
+> Quiero = @persona:yo 
+> Quiero = @verbo:querer 
+> Quiero = @modo_tiempo:indicativo presente 
+> turno = @dato:turno 
+> para = @persona:tú 
+> para = @preposición:para 
+> para = @modo_tiempo:imperativo 
+> para = @persona:él 
+> para = @persona:ella 
+> para = @modo_tiempo:indicativo presente 
+> el = @preposición:la del 
+> el = @pronombres:el 
+> odontologo = @opción:odontológica 
  
 Para comenzar por favor indícame tipo y número de documento del paciente que requiere la cita odontológica     
 Si la cita es para ti házmelo saber para usar tus preferencias habituales.
