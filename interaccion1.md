@@ -59,9 +59,9 @@ Recuerda que mi nombre es Santiago y mediante este canal puedes agendar, consult
 > 
 
 ## Respuesta del chatbot: 
- Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.**   
+Dado que es para ti, procederemos a consultar tus preferencias habituales para facilitarte el proceso.   
  
- Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga:**    
+Luis estas son las opciones disponibles para la cita odontológica que se agendará con el documento CC 1-10-1110 en el centro medico CM Marbella     Revisa que el numero, tipo de documento y centro medico estén correctos y a continuación selecciona la opción que mas te convenga: 
  
  1. 15 de julio de 2018 a las 10:20 am en CM SUBA
 
