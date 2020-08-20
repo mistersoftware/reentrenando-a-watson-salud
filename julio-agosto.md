@@ -19090,6 +19090,262 @@ No he recibido el tipo de documento que acompaña el numero que me acabas de dar
 ---
 
 
+08/18/2020 @
+9:55
+PM
+4
+Intents
+9:55 PM
+ 
+<a href="https://i.imgur.com/zz2zQsO.png"><img src="https://i.imgur.com/zz2zQsO.png" title="Este es uno de los diseños realizados en colaboración entre los estudiantes" /></a>
+ 
+<div class="msgj">Hola, Buena noche.</div>
+ 
+<div class="msgj">Me llamo Platzibot y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites.</div>
+ 
+Para comenzar dime tu nombre por favor
+ 
+[Multi-option response]
+
+Hola: Hola
+me llamo miguel: me llamo miguel
+mi nombre es sofia: mi nombre es sofia
+Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
+hola
+#conversacion
+hola = @conversacion:saludo
+hola = @extractor:hola
+ 
+Hola ¿Qué hay de nuevo?
+que opciones tienes?
+#listar_opciones
+tienes = @persona:tú
+tienes = @verbo:tener
+tienes = @modo_tiempo:indicativo presente
+? = @conversacion:Pregunta
+ 
+Tenemos servicio de agendamiento, consulta, modificación y eliminación de citas médicas y odontológicas. ¿en que te puedo ayudar el día de hoy?
+quiero hacer una consulta
+#agendar_cita
+quiero = @persona:yo
+quiero = @verbo:querer
+quiero = @modo_tiempo:indicativo presente
+hacer = @verbo:hacer
+hacer = @modo_tiempo:infinitivo
+una = @sys-number:1
+ 
+¿Cuál clase de cita necesitas agendar hoy ?
+ 
+[Multi-option response]
+
+Medicina General: Medicina General
+Odontológia Básica: Odontológia Básica
+Medicina General
+#agendar_cita
+Medicina = @especialidad:médica
+Medicina = @temática:ciencias naturales
+Medicina General = @opción:médica
+ 
+¿La cita médica es para ti o es para alguien más?
+ 
+[Multi-option response]
+
+Para mí: Es para mí
+Para mi tía: Es para mi tía
+Para María: Es para María
+para un niño
+#emergencia
+para = @persona:tú
+para = @preposición:para
+para = @modo_tiempo:imperativo
+para = @persona:él
+para = @persona:ella
+para = @modo_tiempo:indicativo presente
+niño = @especialidad:pediatría
+ 
+ 
+tenemos estas opciones disponibles para la cita médica que estas solicitando:</br></br>
+ 
+[Multi-option response]
+Title: 1. Opción primera en CM SUBA
+
+19 de agosto de 2020 a las 10:20 am: Cita médica el día 19 de agosto de 2020 a las 10:20 am en CM SUBA
+ 
+[Multi-option response]
+Title: 2. Opción segunda en CM GRANAHORRAR
+
+1 de septiembre de 2020 a las 4:00 pm : Cita médica el día 1 de septiembre de 2020 a las 4:00 pm en CM GRANAHORRAR
+ 
+[Multi-option response]
+Title: 3. Opción tercera en CM PORTAL NORTE
+
+21 de agosto de 2020 a las 1:00 PM: Cita médica el día 21 de agosto de 2020 a las 1:00 PM en CM PORTAL NORTE
+ 
+</br>¿Cuál es tu elección?
+
+
+---
+
+08/19/2020 @
+3:31
+PM
+9
+Intents
+3:31 PM
+ 
+<a href="https://i.imgur.com/zz2zQsO.png"><img src="https://i.imgur.com/zz2zQsO.png" title="Este es uno de los diseños realizados en colaboración entre los estudiantes" /></a>
+ 
+<div class="msgj">Buena tarde.</div>
+ 
+<div class="msgj">Puedes llamarme Platzibot y, te recuerdo que mi labor es asistirte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
+ 
+¿Cual es tú nombre?
+ 
+[Multi-option response]
+
+Hola: Hola
+me llamo miguel: me llamo miguel
+mi nombre es sofia: mi nombre es sofia
+Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
+hola fer
+#General_Greetings
+hola = @conversacion:saludo
+hola = @extractor:hola
+ 
+Buenas ¿Como va todo? <break></break>
+bien
+#conversacion
+bien = @conversacion:bienestar
+bien = @adverbio:bien
+ 
+que chevere que estes bien,
+ 
+¿de que tema se trata tu necesidad?
+y tu
+#conversacion
+tu = @persona:tú
+ 
+¿de que tema se trata tu necesidad?
+cita
+#agendar_cita
+cita = @persona:ella
+cita = @persona:tú
+cita = @modo_tiempo:imperativo
+cita = @persona:él
+cita = @verbo:citar
+cita = @modo_tiempo:indicativo presente
+ 
+Cuéntame , ¿qué tipo de cita se te ofrece?
+ 
+[Multi-option response]
+
+Medicina General: Medicina General
+Odontológia Básica: Odontológia Básica
+medicina
+#agendar_cita
+medicina = @especialidad:médica
+medicina = @opción:médica
+medicina = @temática:ciencias naturales
+ 
+¿Es para ti o es para alguien más?
+ 
+[Multi-option response]
+
+Para mí: Es para mí
+Para mi tía: Es para mi tía
+Para María: Es para María
+mi
+#recuperar_datos
+mi = @pronombres:mí
+ 
+ 
+tenemos estas opciones disponibles para la cita médica que estas solicitando:</br></br>
+ 
+[Multi-option response]
+Title: 1. Opción primera en CM SUBA
+
+19 de agosto de 2020 a las 10:20 am: Cita médica el día 19 de agosto de 2020 a las 10:20 am en CM SUBA
+ 
+[Multi-option response]
+Title: 2. Opción segunda en CM GRANAHORRAR
+
+1 de septiembre de 2020 a las 4:00 pm : Cita médica el día 1 de septiembre de 2020 a las 4:00 pm en CM GRANAHORRAR
+ 
+[Multi-option response]
+Title: 3. Opción tercera en CM PORTAL NORTE
+
+21 de agosto de 2020 a las 1:00 PM: Cita médica el día 21 de agosto de 2020 a las 1:00 PM en CM PORTAL NORTE
+ 
+</br>¿Alguna de estas opciones te sirve?
+no
+#decisión
+no = @decisión:no
+ 
+¿Que deseas corregir?
+fecha
+#corregir
+fecha = @dato:fecha
+fecha = @opción:fecha
+ 
+Entendido. Corregiremos la fecha, dímela de nuevo por favor
+2021
+Irrelevant
+2021 = @sys-date:2021-01-01
+2021 = @sys-date:2021-12-31
+2021 = @sys-number:2021
+ 
+A que hora la prefieres?
+4
+#decisión
+4 = @opción:cuarta
+4 = @sys-number:4
+ 
+procederemos a consultar disponbilidad con el documento CC 1234567890 para la cita médica, el dia 2021-01-01 a las por la tarde</br></br>
+ 
+¿Esta bien?
+si
+#aceptar
+si = @decisión:sí
+ 
+{"id":"84245254fb8be3b1562bd1ccaa0d5162","ok":true,"rev":"1-366302ae80d42dbcfc25b74096684807"}
+ 
+Agendada con exito
+ 
+¿Podemos hacer algo más por ti?
+no
+#decisión
+no = @decisión:no
+ 
+Hasta luego, ¡vuelve pronto!
+ 
+</br> </br>Este es un proyecto estudiantil que busca desarrollar las competencias adquiridas dentro del convenio Platzi - MinTic ICETEX Inteligencia Artificial. </br> </br> Antes que nada ¡¡¡Gracias!!! </br> </br> En el caso de uso que se presenta el chatbot realiza operaciones CRUD sobre una base de datos cloudant la cual ha sido expuesta mediante una API personalizada mediante functions. Todo serverless, una belleza!</br> </br> Es un gran detalle que quieras interactuar con este chatbot te agradezco cualquier comentario o critica constructiva. </br> </br>
+muy bien, por el ejemplo
+#General_Positive_Feedback
+muy = @adverbio:muy
+muy bien = @conversacion:bienestar
+bien = @adverbio:bien
+por = @preposición:por
+el = @preposición:la del
+el = @pronombres:el
+ 
+<a href="https://i.imgur.com/zz2zQsO.png"><img src="https://i.imgur.com/zz2zQsO.png" title="Este es uno de los diseños realizados en colaboración entre los estudiantes" /></a>
+ 
+<div class="msgj">Hola, Buena tarde.</div>
+ 
+<div class="msgj">Me llamo Platzibot y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites.</div>
+ 
+Para comenzar dime tu nombre por favor
+ 
+[Multi-option response]
+
+Hola: Hola
+me llamo miguel: me llamo miguel
+mi nombre es sofia: mi nombre es sofia
+Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
+
+
+---
+
 
 
 
