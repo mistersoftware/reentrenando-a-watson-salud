@@ -14,13 +14,13 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-hugo
+## hugo
 #cambiar_usuario
 hugo = @nombre:Hugo
  
  
 ¿Cuál es el motivo de tú visita el día de hoy Hugo?
-agendar
+## agendar
 #agendar_cita
  
 Cuéntame Hugo, ¿qué tipo de cita se te ofrece?
@@ -29,7 +29,7 @@ Cuéntame Hugo, ¿qué tipo de cita se te ofrece?
 
 Medicina General: Medicina General
 Odontológia Básica: Odontológia Básica
-1
+## 1
 #decisión
 1 = @sys-number:1
  
@@ -39,14 +39,14 @@ Odontológia Básica: Odontológia Básica
 
 Medicina General: Medicina General
 Odontológia Básica: Odontológia Básica
-Medicina General
+## Medicina General
 #agendar_cita
 Medicina = @especialidad:médica
 Medicina = @temática:ciencias naturales
 Medicina General = @opción:médica
  
 ¿La cita médica es para ti o es para alguien más?
-si
+## si
 #aceptar
 si = @decisión:sí
  
@@ -87,7 +87,7 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-me llamo hugo
+## me llamo hugo
 #cambiar_usuario
 me = @pronombres:me
 me llamo = @extractor:me llamo
@@ -98,7 +98,7 @@ hugo = @nombre:Hugo
  
  
 ¿Qué puedo hacer por ti el día de hoy Hugo?
-agendar
+## agendar
 #agendar_cita
  
 ¿Cuál clase de cita necesitas agendar hoy Hugo?
@@ -107,14 +107,14 @@ agendar
 
 Medicina General: Medicina General
 Odontológia Básica: Odontológia Básica
-Medicina General
+## Medicina General
 #agendar_cita
 Medicina = @especialidad:médica
 Medicina = @temática:ciencias naturales
 Medicina General = @opción:médica
  
 ¿La cita médica es para ti o es para alguien más?
-para mi
+## para mi
 #cambiar_usuario
 para = @persona:tú
 para = @preposición:para
@@ -169,7 +169,7 @@ Hugo procederemos a consultar disponbilidad con el documento CC 31234567890 para
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -198,13 +198,13 @@ Intents
 <div class="msgj">Me llamo Platzibot y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites.</div>
  
 Para comenzar dime tu nombre por favor
-hugo
+## hugo
 #cambiar_usuario
 hugo = @nombre:Hugo
  
  
 ¿En qué te puedo ayudar Hugo?
-me duele un incisivo
+## me duele un incisivo
 #emergencia
 me = @pronombres:me
 duele = @persona:ella
@@ -242,13 +242,13 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-jose
+## jose
 #cambiar_usuario
 jose = @nombre:José
  
  
 ¿Como podemos ayudarte José?
-me duele una muela
+## me duele una muela
 #emergencia
 me = @pronombres:me
 me duele una muela = @emergencia:triage5
@@ -274,7 +274,7 @@ https://i.imgur.com/QeQjWkAl.jpg
 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254507.63598012045!2d-74.11138866785275!3d4.650720841237783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scentro+medico+colsubsidio!5e0!3m2!1ses!2sco!4v1531303135509" width="280" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
  
 </br>Si lo que deseas es agendar una cita normal puedes decírmelo con confianza para ayudarte con eso.
-ok
+## ok
 #aceptar
 ok = @decisión:sí
  
@@ -299,13 +299,13 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-jose
+## jose
 #cambiar_usuario
 jose = @nombre:José
  
  
 ¿Como podemos ayudarte José?
-me duele una muela
+## me duele una muela
 #emergencia
 me = @pronombres:me
 me duele una muela = @emergencia:triage5
@@ -356,7 +356,7 @@ Intents
 <div class="msgj">Puedes llamarme Platzibot y, te recuerdo que mi labor es asistirte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 ¿Cual es tú nombre?
-me llamo jose
+## me llamo jose
 #cambiar_usuario
 me = @pronombres:me
 me llamo = @extractor:me llamo
@@ -367,7 +367,7 @@ jose = @nombre:José
  
  
 Cuéntame José, ¿qué se te ofrece?
-agendar
+## agendar
 #agendar_cita
  
 Cuéntame José, ¿qué tipo de cita se te ofrece?
@@ -383,7 +383,7 @@ Medicina = @temática:ciencias naturales
 Medicina General = @opción:médica
  
 ¿La cita médica es para ti o es para alguien más?
-para mi
+## para mi
 #cambiar_usuario
 para = @persona:tú
 para = @preposición:para
@@ -438,7 +438,7 @@ José procederemos a consultar disponbilidad con el documento CC 31234567890 par
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -483,13 +483,13 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-jose
+## jose
 #cambiar_usuario
 jose = @nombre:José
  
  
 ¿Como podemos ayudarte José?
-me duele una muela
+## me duele una muela
 #emergencia
 me = @pronombres:me
 me duele una muela = @emergencia:triage5
@@ -540,7 +540,7 @@ Intents
 <div class="msgj">Puedes llamarme Platzibot y, te recuerdo que mi labor es asistirte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 ¿Cual es tú nombre?
-me llamo jose
+## me llamo jose
 #cambiar_usuario
 me = @pronombres:me
 me llamo = @extractor:me llamo
@@ -551,7 +551,7 @@ jose = @nombre:José
  
  
 Cuéntame José, ¿qué se te ofrece?
-agendar
+## agendar
 #agendar_cita
  
 Cuéntame José, ¿qué tipo de cita se te ofrece?
@@ -567,7 +567,7 @@ Medicina = @temática:ciencias naturales
 Medicina General = @opción:médica
  
 ¿La cita médica es para ti o es para alguien más?
-para mi
+## para mi
 #cambiar_usuario
 para = @persona:tú
 para = @preposición:para
@@ -622,7 +622,7 @@ José procederemos a consultar disponbilidad con el documento CC 31234567890 par
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -632,7 +632,7 @@ Sí = @pronombres:sí
 Agendada con exito
  
 ¿Podemos hacer algo más por ti?
-me duele una muela
+## me duele una muela
 #emergencia
 me = @pronombres:me
 me duele una muela = @emergencia:triage5
@@ -667,13 +667,13 @@ Intents
 <div class="msgj">Me llamo Platzibot y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites.</div>
  
 Para comenzar dime tu nombre por favor
-jose
+## jose
 #cambiar_usuario
 jose = @nombre:José
  
  
 ¿Como podemos ayudarte José?
-agendar
+## agendar
 #agendar_cita
  
 ¿Qué tipo de cita deseas agendar José?
@@ -695,7 +695,7 @@ Medicina General = @opción:médica
 Para mí: Es para mí
 Para mi tía: Es para mi tía
 Para María: Es para María
-Es para mí
+## Es para mí
 #cambiar_usuario
 Es = @persona:él
 Es = @persona:ella
@@ -745,13 +745,13 @@ Intents
 <div class="msgj">Me llamo Platzibot y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites.</div>
  
 Para comenzar dime tu nombre por favor
-jose
+## jose
 #cambiar_usuario
 jose = @nombre:José
  
  
 ¿Como podemos ayudarte José?
-agendar
+## agendar
 #agendar_cita
  
 ¿Qué tipo de cita deseas agendar José?
@@ -760,7 +760,7 @@ agendar
 
 Medicina General: Medicina General
 Odontológia Básica: Odontológia Básica
-Medicina General
+## Medicina General
 #agendar_cita
 Medicina = @especialidad:médica
 Medicina = @temática:ciencias naturales
@@ -823,7 +823,7 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-hugo
+## hugo
 #cambiar_usuario
 hugo = @nombre:Hugo
  
@@ -836,7 +836,7 @@ Agendar: Agendar
 Consultar: Consultar
 Modificar: Modificar
 Eliminar: Eliminar
-Consultar
+## Consultar
 #consultar_cita
  
 Para comenzar indícanos tu número y tipo de documento
@@ -858,7 +858,7 @@ Intents
 <div class="msgj">Soy Platzibot, mi labor es colaborarte en la programación, consulta, modificación y cancelación de citas médicas y odontológicas.</div>
  
 Dime tu nombre por favor
-hugo
+## hugo
 #cambiar_usuario
 hugo = @nombre:Hugo
  
@@ -875,7 +875,7 @@ Modificar
 #modificar_cita
  
 Para comenzar indícanos tu número y tipo de documento
-cc 546456
+## cc 546456
 #corregir
 cc = @tipo_documento:CC
 546456 = @input_patterns:PEP
@@ -899,7 +899,7 @@ Intents
 <div class="msgj">Me llamo Platzibot y mediante este canal puedes agendar, consultar, reprogramar y eliminar citas médicas y odontológicas siempre que lo necesites.</div>
  
 Para comenzar dime tu nombre por favor
-hugo
+## hugo
 #cambiar_usuario
 hugo = @nombre:Hugo
  
@@ -912,11 +912,11 @@ Agendar: Agendar
 Consultar: Consultar
 Modificar: Modificar
 Eliminar: Eliminar
-Eliminar
+## Eliminar
 #eliminar_cita
  
 Para comenzar indícanos tu número y tipo de documento
-cc 435434
+## cc 435434
 #corregir
 cc = @tipo_documento:CC
 435434 = @input_patterns:PEP
@@ -973,7 +973,7 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-me llamo miguel
+## me llamo miguel
 #cambiar_usuario
 me = @pronombres:me
 me llamo = @extractor:me llamo
@@ -991,7 +991,7 @@ Agendar: Agendar
 Consultar: Consultar
 Modificar: Modificar
 Eliminar: Eliminar
-Agendar
+## Agendar
 #agendar_cita
  
 ¿Qué tipo de cita deseas agendar Miguel?
@@ -1012,7 +1012,7 @@ Odontológia = @especialidad:odontológica
 Para mí: Es para mí
 Para mi tía: Es para mi tía
 Para María: Es para María
-Es para mí
+## Es para mí
 #cambiar_usuario
 Es = @persona:él
 Es = @persona:ella
