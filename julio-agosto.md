@@ -331,7 +331,7 @@ https://i.imgur.com/QeQjWkAl.jpg
 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254507.63598012045!2d-74.11138866785275!3d4.650720841237783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scentro+medico+colsubsidio!5e0!3m2!1ses!2sco!4v1531303135509" width="280" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
  
 </br>Si lo que deseas es agendar una cita normal puedes decírmelo con confianza para ayudarte con eso.
-ok
+## ok
 #aceptar
 ok = @decisión:sí
  
@@ -376,7 +376,7 @@ Cuéntame José, ¿qué tipo de cita se te ofrece?
 
 Medicina General: Medicina General
 Odontológia Básica: Odontológia Básica
-Medicina General
+## Medicina General
 #agendar_cita
 Medicina = @especialidad:médica
 Medicina = @temática:ciencias naturales
@@ -412,7 +412,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: 26 de julio de 2018 a las 1:00 PM
  
 </br>Elije una antes que alguien más la reserve
-15 de julio de 2018 a las 10:20 am
+## 15 de julio de 2018 a las 10:20 am
 #cambiar_turno
 15 de julio de 2018 = @sys-date:2018-07-15
 de = @persona:ella
@@ -448,7 +448,7 @@ Sí = @pronombres:sí
 Agendada con exito
  
 ¿Podemos hacer algo más por ti?
-me duele una muela
+## me duele una muela
 #emergencia
 me = @pronombres:me
 me duele una muela = @emergencia:triage5
@@ -515,7 +515,7 @@ https://i.imgur.com/QeQjWkAl.jpg
 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d254507.63598012045!2d-74.11138866785275!3d4.650720841237783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scentro+medico+colsubsidio!5e0!3m2!1ses!2sco!4v1531303135509" width="280" height="260" frameborder="0" style="border:0" allowfullscreen></iframe>
  
 </br>Si lo que deseas es agendar una cita normal puedes decírmelo con confianza para ayudarte con eso.
-ok
+## ok
 #aceptar
 ok = @decisión:sí
  
@@ -1086,7 +1086,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -1095,17 +1095,17 @@ Sí = @pronombres:sí
 <strong>Agendada correctamente ✔️</strong></br></br>Miguel la cita odontológica ha sido agendada para el dia 2018-07-15 a las 10:20:00 en el centro médico CM SUBA.</br></br>Es necesario presentarse 20 minutos antes con el documento de identificación CC 31234567890 y pasar por el punto de pago a cancelar la cuota co-pago correspondiente.</br></br> <a href="https://web-chat.global.assistant.watson.cloud.ibm.com/preview.html?region=us-south&integrationID=2c556620-03e4-4828-9aad-341320d9effe&serviceInstanceID=c851319f-2f12-41f0-822d-b86311301578">Código de Confirmación:</a> </br><strong>70df5ec470b023d704c078bdb66056d5</strong></br></br>
  
 ¿Podemos hacer algo más por ti?
-Tal vez
+## Tal vez
 #conversacion
 Tal = @adverbio:tal
  
 ¿Cuál es el motivo de tu visita a este canal?
-:D
+## :D
 #corregir
 :D = @emojis:lagrimas de felicidad
  
 Que deseas que corrijamos?
-Nada, gracias
+## Nada, gracias
 #General_Positive_Feedback
 Nada = @decisión:no
 Nada = @adverbio:nada
@@ -1114,14 +1114,14 @@ gracias = @conversacion:cortesia
 gracias = @conversacion:agradecimiento
  
 Que deseas corregir?
-Nada
+## Nada
 #denegar
 Nada = @decisión:no
 Nada = @adverbio:nada
 Nada = @pronombres:nada
  
 ¿Qué te trae por aquí entonces?
-Solo soy un espectador jeje
+## Solo soy un espectador jeje
 #conversacion
 Solo = @extractor:solo
 Solo = @adverbio:solo
@@ -1132,7 +1132,7 @@ jeje = @persona:él
 jeje = @persona:ella
  
 ¿de que tema se trata tu necesidad?
-Tengo Covid 19
+## Tengo Covid 19
 #emergencia
 Tengo = @persona:yo
 Tengo = @verbo:tener
@@ -1163,7 +1163,7 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-me llamo miguel
+## me llamo miguel
 #cambiar_usuario
 me = @pronombres:me
 me llamo = @extractor:me llamo
@@ -1181,7 +1181,7 @@ Agendar: Agendar
 Consultar: Consultar
 Modificar: Modificar
 Eliminar: Eliminar
-Agendar
+## Agendar
  
 Cuéntame Miguel, ¿qué tipo de cita se te ofrece?
  
@@ -1189,7 +1189,7 @@ Cuéntame Miguel, ¿qué tipo de cita se te ofrece?
 
 Medicina General: Medicina General
 Odontológia Básica: Odontológia Básica
-Odontológia Básica
+## Odontológia Básica
 #agendar_cita
 Odontológia = @opción:odontológica
 Odontológia = @especialidad:odontológica
@@ -1201,7 +1201,7 @@ Odontológia = @especialidad:odontológica
 Para mí: Es para mí
 Para mi tía: Es para mi tía
 Para María: Es para María
-Es para mi tía
+## Es para mi tía
 #cambiar_usuario
 Es = @persona:él
 Es = @persona:ella
@@ -1216,7 +1216,7 @@ mi = @pronombres:mí
 tía = @otra_persona:tío
  
 Por favor indicame el número de documento de tu tía
-cc 111
+## cc 111
 #corregir
 cc = @tipo_documento:CC
 111 = @sys-number:111
@@ -1240,7 +1240,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: Cita odontológica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
  
 </br>¿Te sirve alguna de las anteriores o quieres probar diciéndome una fecha y hora?
-Cita odontológica el día 15 de julio de 2018 a las 10:20 am en CM SUBA
+## Cita odontológica el día 15 de julio de 2018 a las 10:20 am en CM SUBA
 Irrelevant
 Cita = @persona:tú
 Cita = @persona:él
@@ -1282,7 +1282,7 @@ Ten presente que si no asistes se genera multa por un valor de $ 12.000.
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -1319,7 +1319,7 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
+## Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
 #agendar_cita
 Hola = @conversacion:saludo
 Hola = @extractor:hola
@@ -1354,25 +1354,25 @@ procederemos a consultar disponbilidad con el documento CC 31234567890 para la c
 Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 ¿Esta bien?
-no
+## no
 #decisión
 no = @decisión:no
  
 ¿Que deseas corregir?
-la identificacion
+## la identificacion
 #corregir
 la = @pronombres:la
 identificacion = @tramite:Identificacion
  
 Por favor indícame, ¿que hay que corregir?
-la cedula
+## la cedula
 #corregir
 la = @pronombres:la
 cedula = @tipo_documento:CC
 cedula = @dato:numero_documento
  
 muy bien por favor dime de nuevo el numero y tipo de documento para realizar la corrección.
-ti 856786
+## ti 856786
 #corregir
 ti = @tipo_documento:TI
 ti = @pronombres:ti
@@ -1424,7 +1424,7 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
+## Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
 #agendar_cita
 Hola = @conversacion:saludo
 Hola = @extractor:hola
@@ -1459,19 +1459,19 @@ procederemos a consultar disponbilidad con el documento CC 31234567890 para la c
 Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 ¿Esta bien?
-no
+## no
 #decisión
 no = @decisión:no
  
 ¿Que deseas corregir?
-la identificacion
+## la identificacion
 #corregir
 la = @pronombres:la
 identificacion = @tramite:Identificacion
 identificacion = @dato:numero_documento
  
 muy bien por favor dime de nuevo el numero y tipo de documento para realizar la corrección.
-pep 93454754
+## pep 93454754
 #corregir
 pep = @dato:tipo_documento
 pep = @tipo_documento:PEP
@@ -1497,7 +1497,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: Cita odontológica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
  
 </br>Elije una antes que alguien más la reserve
-3
+## 3
 #decisión
 3 = @opción:tercera
 3 = @sys-number:3
@@ -1509,7 +1509,7 @@ tu cita odontológica quedará reservada para el día 26 de julio de 2018 a las 
 Ten presente que si no asistes se genera multa por un valor de $ 12.000.
  
 ¿Esta bien?
-si
+## si
 #aceptar
 si = @decisión:sí
  
@@ -1518,12 +1518,12 @@ si = @decisión:sí
 Agendada con exito
  
 ¿Podemos hacer algo más por ti?
-si
+## si
 #aceptar
 si = @decisión:sí
  
 ¿Que otra cosa te gustaría hacer?
-agendar
+## agendar
 #agendar_cita
  
 ¿Qué tipo de cita deseas agendar ?
@@ -1545,7 +1545,7 @@ Medicina General = @opción:médica
 Para mí: Es para mí
 Para mi tía: Es para mi tía
 Para María: Es para María
-Es para mi tía
+## Es para mi tía
 #cambiar_usuario
 Es = @persona:él
 Es = @persona:ella
@@ -1560,7 +1560,7 @@ mi = @pronombres:mí
 tía = @otra_persona:tío
  
 Por favor indicame el número de documento de tu tía
-ti 856786
+## ti 856786
 #corregir
 ti = @tipo_documento:TI
 ti = @dato:tipo_documento
@@ -1587,7 +1587,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: Cita médica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
  
 </br>¿Alguna de estas opciones te sirve?
-Cita médica el día 15 de julio de 2018 a las 4:00 pm en CM GRANAHORRAR
+## Cita médica el día 15 de julio de 2018 a las 4:00 pm en CM GRANAHORRAR
 #cambiar_turno
 Cita = @persona:tú
 Cita = @modo_tiempo:imperativo
@@ -1662,7 +1662,7 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-Hola
+## Hola
 #conversacion
 Hola = @conversacion:saludo
 Hola = @extractor:hola
@@ -1693,13 +1693,13 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-Hola
+## Hola
 #conversacion
 Hola = @conversacion:saludo
 Hola = @extractor:hola
  
 Buenas, ¿como estas? <break></break>
-bien
+## bien
 #conversacion
 bien = @conversacion:bienestar
 bien = @adverbio:bien
@@ -1707,7 +1707,7 @@ bien = @adverbio:bien
 maravilloso,
  
 ¿como puedo ayudarte?
-cómo te llamas?
+## cómo te llamas?
 #habilidades
 te = @pronombres:te
 llamas = @verbo:llamar
@@ -1716,7 +1716,7 @@ llamas = @modo_tiempo:indicativo presente
 ? = @conversacion:Pregunta
  
 Mi nombre es Santiago, estoy aquí para ayudarte con el agendamiento, modificación y eliminación de citas médicas y odontológicas.
-citas en platzi?
+## citas en platzi?
 #consultar_cita
 citas = @persona:tú
 citas = @verbo:citar
@@ -1750,13 +1750,13 @@ Hola: Hola
 me llamo miguel: me llamo miguel
 mi nombre es sofia: mi nombre es sofia
 Hola me gustaria agendar una cita odontologica para el lunes las 5 y media: Hola me gustaria agendar una cita odontologica para el lunes las 5 y media
-Hola
+## Hola
 #conversacion
 Hola = @conversacion:saludo
 Hola = @extractor:hola
  
 Me alegra saludarte ¿como te va?
-Bien gracias
+## Bien gracias
 #conversacion
 Bien = @adverbio:bien
 Bien gracias = @conversacion:bienestar
@@ -1764,7 +1764,7 @@ Bien gracias = @conversacion:bienestar
 maravilloso,
  
 ¿de que tema se trata tu necesidad?
-Necesito una cita medica con neurología
+## Necesito una cita medica con neurología
 #agendar_cita
 Necesito = @persona:yo
 Necesito = @verbo:necesitar
@@ -1791,7 +1791,7 @@ neurología = @fuera_de_entrenamiento:neurología
 Para mí: Es para mí
 Para mi tía: Es para mi tía
 Para María: Es para María
-Para mi mama
+## Para mi mama
 #cambiar_usuario
 Para = @persona:tú
 Para = @preposición:para
@@ -1804,7 +1804,7 @@ mi mama = @otra_persona:madre
 mama = @genero:femenino
 mama = @temática:madre
  
-Por favor indicame el número de documento de tu mi mama
+## Por favor indicame el número de documento de tu mi mama
 1045729i789
 Irrelevant
 104572 = @input_patterns:PEP
@@ -1829,7 +1829,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: Cita médica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
  
 </br>¿Te sirve alguna de las anteriores o quieres probar diciéndome una fecha y hora?
-Cita médica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
+## Cita médica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
 #cambiar_turno
 Cita = @persona:tú
 Cita = @persona:él
@@ -1870,7 +1870,7 @@ procederemos a consultar disponibilidad con el documento CC 31234567890 para la 
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -1895,7 +1895,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: Cita médica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
  
 </br>¿Cuál es tu elección?
-Cita médica el día 15 de julio de 2018 a las 10:20 am en CM SUBA
+## Cita médica el día 15 de julio de 2018 a las 10:20 am en CM SUBA
 Irrelevant
 Cita = @persona:tú
 Cita = @persona:él
@@ -1935,7 +1935,7 @@ Vamos a consultar disponibilidad con el documento CC 31234567890 de la cita méd
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
@@ -1960,7 +1960,7 @@ Title: 3. Opción tercera en CM PORTAL NORTE
 26 de julio de 2018 a las 1:00 PM: Cita médica el día 26 de julio de 2018 a las 1:00 PM en CM PORTAL NORTE
  
 </br>Elije una antes que alguien más la reserve
-Cita médica el día 15 de julio de 2018 a las 10:20 am en CM SUBA
+## Cita médica el día 15 de julio de 2018 a las 10:20 am en CM SUBA
 Irrelevant
 Cita = @persona:tú
 Cita = @persona:él
@@ -2000,7 +2000,7 @@ Vamos a consultar disponibilidad con el documento CC 31234567890 de la cita méd
 Sí: Sí
 No: No
 Corregir: Corregir
-Sí
+## Sí
 #decisión
 Sí = @decisión:sí
 Sí = @pronombres:sí
